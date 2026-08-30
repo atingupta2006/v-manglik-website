@@ -1,0 +1,463 @@
+{
+  "research_metadata": {
+    "research_date": "2026-08-30",
+    "enriched_date": "2026-08-30",
+    "research_scope": [
+      "ICAI records",
+      "Current professional profiles",
+      "LinkedIn",
+      "Local business listings",
+      "Public company/directorship records",
+      "Historical public records",
+      "Current professional activity",
+      "Firm-supplied contact and publish decisions"
+    ],
+    "purpose": "Source dataset for building and maintaining the V Manglik & Co. website",
+    "confidence_policy": "Do not publish web-reported or inferred information as confirmed fact without business verification.",
+    "asset_note": "This file is the maintained research + publish-decision record. Website HTML remains the live source of truth for displayed copy."
+  },
+
+  "publish_decisions": {
+    "decided_date": "2026-08-30",
+    "hosting": {
+      "live_url": "https://atingupta2006.github.io/v-manglik-website/",
+      "custom_domain_forward": false,
+      "note": "Do not forward GitHub Pages to manglikca.in unless explicitly requested again."
+    },
+    "approved_for_website": [
+      "CA Vishal Manglik name (no founder/partner/owner titles)",
+      "Noida office as current second office",
+      "Office hours Monday–Saturday 10:00–18:00",
+      "Public listing rating 5.0 (21 reviews)",
+      "Anonymous testimonial themes tied to public listings",
+      "Firm phone +91 94127 15334",
+      "Firm email pm@manglikca.in",
+      "Team professionals Harsh Agarwal, Palak Agarwal, Akshita Goel (conservative wording)"
+    ],
+    "still_do_not_publish": [
+      "Vishal Manglik as founder/partner/managing partner/owner",
+      "Prashant Manglik as current Partner / Managing Partner",
+      "Research phone +91 1222 312151 (superseded by firm phone)",
+      "Vishal Manglik private-company directorships on the CA firm site",
+      "Anurag Bhardwaj (internal research only until role confirmed)",
+      "Awards, client logos, client counts, pan-India or international claims",
+      "25+ years / longest-running firm claims"
+    ]
+  },
+
+  "firm": {
+    "official_name": {
+      "value": "V Manglik & Co.",
+      "status": "confirmed",
+      "confidence": "very_high",
+      "source": "ICAI List of Firms"
+    },
+    "profession": {
+      "value": "Chartered Accountants",
+      "status": "confirmed",
+      "confidence": "very_high"
+    },
+    "icai_firm_registration_number": {
+      "value": "008674C",
+      "status": "confirmed",
+      "confidence": "very_high",
+      "source": "ICAI List of Firms 2023"
+    },
+    "founded": {
+      "value": 2000,
+      "status": "firm_supplied",
+      "confidence": "high",
+      "website_wording": "Established in 2000"
+    },
+    "tagline": {
+      "value": "Precision | Integrity | Growth",
+      "status": "firm_supplied",
+      "confidence": "high"
+    },
+    "primary_location": {
+      "city": "Hapur",
+      "state": "Uttar Pradesh",
+      "country": "India",
+      "status": "confirmed",
+      "confidence": "very_high"
+    }
+  },
+
+  "head_office": {
+    "address": "177, Pucca Bagh, Hapur, Uttar Pradesh 245101, India",
+    "status": "strongly_confirmed",
+    "confidence": "very_high",
+    "source_evidence": [
+      "ICAI firm listing",
+      "Current local business listing",
+      "Other professional directories",
+      "Firm confirmation for website"
+    ],
+    "recommended_website_usage": true,
+    "website_publish": true
+  },
+
+  "contact": {
+    "phone": {
+      "firm_confirmed": {
+        "value": "+91 94127 15334",
+        "status": "firm_supplied",
+        "confidence": "very_high",
+        "website_publish": true
+      },
+      "web_reported_listing": {
+        "value": "+91 1222 312151",
+        "status": "web_reported_superseded",
+        "confidence": "medium_high",
+        "source": "Structured business listing",
+        "website_publish": false,
+        "note": "Do not display; superseded by firm-supplied mobile."
+      }
+    },
+    "email": {
+      "firm_confirmed": {
+        "value": "pm@manglikca.in",
+        "status": "firm_supplied",
+        "confidence": "very_high",
+        "website_publish": true
+      },
+      "research_note": "Original research found no reliable email; firm later supplied pm@manglikca.in."
+    },
+    "website": {
+      "live": "https://atingupta2006.github.io/v-manglik-website/",
+      "email_domain_note": "manglikca.in appears in email only; site is not forwarded to that domain.",
+      "status": "github_pages_live"
+    },
+    "working_hours": {
+      "value": "Monday–Saturday 10:00–18:00",
+      "status": "firm_approved_for_publish",
+      "confidence": "high",
+      "details": {
+        "structured_business_listing": "Monday-Saturday 10:00-18:00",
+        "other_directory": "Monday-Saturday approximately 10:00-17:00"
+      },
+      "selected_for_website": "Monday-Saturday 10:00-18:00",
+      "website_publish": true
+    },
+    "primary_contact_person": {
+      "value": "CA Prashant Manglik",
+      "status": "firm_supplied",
+      "website_publish": true
+    }
+  },
+
+  "locations": {
+    "head_office": {
+      "city": "Hapur",
+      "address": "177, Pucca Bagh, Hapur, Uttar Pradesh 245101",
+      "label": "Head Office",
+      "status": "confirmed",
+      "website_publish": true
+    },
+    "noida": {
+      "address": "H-6, Sector-11, Noida 201301, Uttar Pradesh, India",
+      "label": "Noida Office",
+      "status": "firm_approved_current_office",
+      "confidence": "high",
+      "research_status_original": "historically_publicly_listed",
+      "website_publish": true,
+      "note": "Firm/user approved publishing Noida as a current office (2026-08-30)."
+    }
+  },
+
+  "professional_people": {
+    "prashant_manglik": {
+      "name": "CA Prashant Manglik",
+      "association_with_firm": "strongly_supported",
+      "icai_membership_number_found": "079552",
+      "icai_membership_on_website": false,
+      "historical_role": "Partner",
+      "current_role_display": "Chartered Accountant — Audit | Business Advisory",
+      "current_role_note": "Do not publish Partner / Managing Partner without fresh confirmation.",
+      "professional_areas_found": ["Audit", "Business Advisory"],
+      "current_professional_city": "Noida, Uttar Pradesh, India",
+      "website_publish": true,
+      "website_safe_wording": "CA Prashant Manglik"
+    },
+    "vishal_manglik": {
+      "name": "CA Vishal Manglik",
+      "ca_status": "ICAI DISA-qualified member record found",
+      "location_in_icai_record": "Hapur",
+      "association_with_v_manglik_and_co": "firm_approved_name_on_website",
+      "same_address_evidence": true,
+      "website_publish": true,
+      "website_safe_wording": "CA Vishal Manglik — Chartered Accountant (DISA)",
+      "do_not_state": [
+        "Founder of V Manglik & Co.",
+        "Partner of V Manglik & Co.",
+        "Managing Partner of V Manglik & Co.",
+        "Owner of V Manglik & Co."
+      ],
+      "other_public_business_activity": {
+        "directorships_found": [
+          "Maa Pitambara Bakers Private Limited",
+          "Vikram Arya Food Products Private Limited",
+          "V G Infotech Private Limited"
+        ],
+        "website_publish": false,
+        "reason": "Private-company directorships are not suitable for the CA firm brochure site."
+      }
+    },
+    "harsh_agarwal": {
+      "name": "CA Harsh Agarwal",
+      "association_with_firm": "current LinkedIn association",
+      "location": "Hapur, Uttar Pradesh, India",
+      "professional_description": "Qualified Chartered Accountant with experience in auditing, accounting and taxation",
+      "website_publish": true,
+      "website_safe_wording": "CA Harsh Agarwal — Auditing, Accounting & Taxation"
+    },
+    "palak_agarwal": {
+      "name": "CA Palak Agarwal",
+      "association_with_firm": "current LinkedIn association",
+      "location": "Hapur, Uttar Pradesh, India",
+      "professional_status": "Current LinkedIn profile indicates Chartered Accountancy progression/qualification",
+      "website_publish": true,
+      "website_safe_wording": "CA Palak Agarwal — Chartered Accountant"
+    },
+    "akshita_goel": {
+      "name": "Akshita Goel",
+      "association_with_firm": "V. Manglik and Co.",
+      "professional_description": "Semi-qualified Chartered Accountant and B.Com graduate; profile indicates approximately three years of articleship experience",
+      "website_publish": true,
+      "website_safe_wording": "Akshita Goel — Semi-qualified Chartered Accountant"
+    },
+    "anurag_bhardwaj": {
+      "name": "Anurag Bhardwaj",
+      "association_with_firm": "V Manglik & Co.",
+      "location": "Hapur",
+      "status": "LinkedIn association found",
+      "website_publish": false,
+      "note": "Internal research only until role is confirmed."
+    }
+  },
+
+  "service_portfolio": {
+    "source_priority": "Firm supplied document is authoritative",
+    "categories": {
+      "direct_taxation": [
+        "Income Tax Return (ITR) Filing",
+        "Litigation Support",
+        "Capital Gains Tax Advisory",
+        "NRI Taxation",
+        "TDS Compliance & Returns",
+        "Lower Deduction Certificates for TDS / TCS"
+      ],
+      "gst_services": [
+        "GST Registration",
+        "GST Return Filing",
+        "GST Notices & Litigation Support",
+        "GST Refund Application"
+      ],
+      "audit_and_assurance": [
+        "Statutory Audit",
+        "Tax Audit (Section 44AB)",
+        "Bank Audit"
+      ],
+      "company_and_llp_services": [
+        "Private Limited Company Registration",
+        "LLP Registration",
+        "OPC Registration",
+        "Partnership Firm Registration",
+        "ROC Annual Compliance"
+      ],
+      "startup_and_msme_services": [
+        "Startup India Registration",
+        "MSME/Udyam Registration"
+      ],
+      "litigation_and_representation": [
+        "Income Tax Appeals",
+        "GST Appeals",
+        "Representation Before Tax Authorities",
+        "Assessment Proceedings",
+        "Reply to Notices"
+      ],
+      "other_registrations": [
+        "PAN & TAN",
+        "DSC (Digital Signature Certificate)",
+        "IEC Registration",
+        "LEI Registration",
+        "Trademark Coordination (through associates, if applicable)"
+      ]
+    }
+  },
+
+  "professional_expertise_signals": {
+    "strongest_supported_areas": [
+      "Taxation",
+      "Income Tax",
+      "TDS",
+      "GST",
+      "Audit",
+      "Accounting",
+      "Business Advisory",
+      "Compliance",
+      "Tax Representation",
+      "Business Registrations"
+    ],
+    "evidence": [
+      "Firm-supplied service portfolio",
+      "ICAI professional records",
+      "Professional profiles of firm-associated CAs",
+      "Current professional activity"
+    ]
+  },
+
+  "recent_professional_activity": {
+    "themes_identified": [
+      "Tax planning",
+      "TDS",
+      "TCS",
+      "Cash-flow impact of tax deductions",
+      "Business compliance",
+      "Tax refunds",
+      "Income-tax rectification",
+      "Tax authority communication",
+      "CPGRAMS escalation",
+      "Tax-related practical guidance"
+    ],
+    "website_value": "High",
+    "recommended_use": [
+      "Expertise section",
+      "Advisory focus section",
+      "Insights section in future",
+      "Tax advisory positioning"
+    ],
+    "website_publish_as": "Advisory focus themes (not claimed exclusive specializations)",
+    "do_not_overstate": "These themes demonstrate public professional activity but do not by themselves prove specialization in every listed area."
+  },
+
+  "historical_presence": {
+    "public_evidence_year": 2004,
+    "finding": "V. Manglik & Co., Chartered Accountants was publicly documented in Hapur",
+    "prashant_manglik_role_in_record": "Partner",
+    "website_value": "Supports long-standing professional presence",
+    "recommended_wording": "Established in 2000. Public records also document presence in Hapur since at least 2004.",
+    "avoid": [
+      "25+ years of experience",
+      "25 years of excellence",
+      "Longest-running CA firm in Hapur"
+    ]
+  },
+
+  "local_presence": {
+    "current_business_listing": {
+      "name": "V Manglik & Co. (Chartered Accountants)",
+      "address": "177, Pucca Bagh, Mani Pakka Bagh, Hapur, Uttar Pradesh 245101, India",
+      "category": "Chartered Accountant",
+      "rating": 5.0,
+      "review_count": 21,
+      "phone": "+91 1222 312151"
+    },
+    "rating_usage": {
+      "status": "firm_approved_for_publish",
+      "website_publish": true,
+      "website_wording": "5.0 public business listing rating based on 21 reviews",
+      "attribution": "Public business listings"
+    }
+  },
+
+  "brand_positioning": {
+    "recommended_primary_positioning": "Professional Chartered Accountant services across taxation, GST, audit, compliance, business services and representation.",
+    "recommended_short_positioning": "Taxation | GST | Audit | Compliance | Advisory",
+    "brand_attributes": [
+      "Precision",
+      "Integrity",
+      "Growth",
+      "Transparency",
+      "Professionalism",
+      "Accuracy",
+      "Ethical approach",
+      "Practical financial solutions"
+    ]
+  },
+
+  "target_audiences": {
+    "confirmed_from_firm_material": [
+      "Entrepreneurs",
+      "Growing Businesses",
+      "Corporate Organizations",
+      "Individual Taxpayers"
+    ],
+    "additional_relevant_segments": [
+      "Startups",
+      "MSMEs",
+      "Businesses requiring GST compliance",
+      "Businesses requiring audit",
+      "Individuals requiring tax support"
+    ]
+  },
+
+  "website_recommendation": {
+    "recommended_sections": [
+      "Home",
+      "About the Firm",
+      "Why Choose V Manglik & Co.",
+      "Professional Expertise",
+      "Our Professionals / Team",
+      "Who We Serve",
+      "Services",
+      "How We Engage",
+      "Ratings & Feedback",
+      "Contact Us",
+      "FAQ"
+    ],
+    "optional_future_sections": [
+      "Tax & Compliance Insights",
+      "Google Business Profile deep-link"
+    ],
+    "avoid_for_now": [
+      "Awards",
+      "Client Logos",
+      "Blog",
+      "Multiple City Landing Pages",
+      "Named client case studies without permission"
+    ]
+  },
+
+  "website_content_priorities": {
+    "priority_1": [
+      "V Manglik & Co.",
+      "Chartered Accountants",
+      "Established in 2000",
+      "ICAI Firm Registration No. 008674C",
+      "Hapur Head Office",
+      "177 Pucca Bagh",
+      "Noida Office H-6 Sector-11"
+    ],
+    "priority_2": [
+      "Taxation",
+      "GST",
+      "Audit",
+      "Compliance",
+      "Business Advisory",
+      "Representation"
+    ],
+    "priority_3": [
+      "CA Vishal Manglik",
+      "CA Prashant Manglik",
+      "Professional team",
+      "Phone +91 94127 15334",
+      "Email pm@manglikca.in",
+      "Office hours",
+      "Rating 5.0 / 21 reviews"
+    ]
+  },
+
+  "schema_suggestions": {
+    "@type": "AccountingService",
+    "include": [
+      "identifier ICAI 008674C",
+      "Hapur + Noida locations",
+      "telephone firm-confirmed",
+      "email firm-confirmed",
+      "openingHoursSpecification Mon–Sat 10:00–18:00",
+      "aggregateRating 5.0 / 21",
+      "employee CA Vishal Manglik and CA Prashant Manglik"
+    ]
+  }
+}

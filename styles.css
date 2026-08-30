@@ -432,7 +432,7 @@ p {
 
 .about-credentials {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: var(--space-lg);
   margin-bottom: var(--space-xl);
   padding: var(--space-lg) 0;
@@ -508,7 +508,7 @@ p {
 
 .why-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: var(--space-md);
   align-items: stretch;
 }
@@ -560,6 +560,91 @@ p {
 }
 
 /* ------------------------------------------------------------
+   7d. Professionals
+   ------------------------------------------------------------ */
+.professionals {
+  padding: var(--space-2xl) 0;
+  background: var(--color-background);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.professionals-grid-lead {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-bottom: var(--space-md);
+}
+
+.professionals-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-md);
+  align-items: stretch;
+}
+
+.professional-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  padding: var(--space-md) 0;
+  border-top: 1px solid var(--color-border-strong);
+  min-width: 0;
+}
+
+.professional-card-lead {
+  padding-top: var(--space-lg);
+}
+
+.professional-card h3 {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+
+.professional-role {
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+.professional-card p:last-child {
+  margin: 0.25rem 0 0;
+  font-size: 0.9375rem;
+  color: var(--color-muted);
+  line-height: 1.55;
+  max-width: none;
+}
+
+/* ------------------------------------------------------------
+   7e. Advisory focus
+   ------------------------------------------------------------ */
+.advisory {
+  padding: var(--space-2xl) 0;
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.advisory-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+}
+
+.advisory-list li {
+  border-left: 2px solid var(--color-accent);
+  padding: 0.75rem 0.9rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-secondary);
+  background: var(--color-background);
+}
+
+/* ------------------------------------------------------------
    8. Audience
    ------------------------------------------------------------ */
 .audience {
@@ -570,7 +655,7 @@ p {
 
 .audience-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: var(--space-md);
   align-items: stretch;
 }
@@ -916,6 +1001,123 @@ p {
   display: none !important;
 }
 
+.offices-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-xl);
+  margin-bottom: var(--space-xl);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--color-border-strong);
+}
+
+.office-map-link {
+  margin: var(--space-sm) 0 0;
+  font-size: 0.875rem;
+}
+
+.office-map-link a {
+  color: var(--color-accent);
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.office-map-link a:hover {
+  text-decoration: underline;
+}
+
+.contact-layout-single {
+  grid-template-columns: 1fr;
+  border-top: 0;
+  padding-top: 0;
+}
+
+.contact-details-wide {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.footer-office-label-spaced {
+  margin-top: var(--space-md);
+}
+
+/* ------------------------------------------------------------
+   10a. Trust / ratings / testimonials
+   ------------------------------------------------------------ */
+.trust {
+  padding: var(--space-2xl) 0;
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.trust-rating {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-md);
+  margin-bottom: var(--space-xl);
+  padding-bottom: var(--space-lg);
+  border-bottom: 1px solid var(--color-border-strong);
+}
+
+.trust-score {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: clamp(3rem, 6vw, 4.25rem);
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+}
+
+.trust-rating-label {
+  margin: 0 0 0.25rem;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+.trust-rating-meta {
+  margin: 0;
+  font-size: 1.05rem;
+  color: var(--color-secondary);
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-md);
+  align-items: stretch;
+}
+
+.testimonial {
+  margin: 0;
+  padding: var(--space-md) 0 0;
+  border-top: 1px solid var(--color-border-strong);
+}
+
+.testimonial p {
+  margin: 0 0 var(--space-sm);
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  line-height: 1.55;
+  color: var(--color-text);
+  max-width: none;
+}
+
+.testimonial footer {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--color-muted);
+}
+
+.trust-note {
+  margin: var(--space-lg) 0 0;
+  font-size: 0.8125rem;
+  color: var(--color-muted);
+  max-width: 40rem;
+}
+
 /* ------------------------------------------------------------
    10b. FAQ
    ------------------------------------------------------------ */
@@ -1107,6 +1309,20 @@ p {
    ------------------------------------------------------------ */
 
 /* Tablet */
+@media (max-width: 1100px) {
+  .about-credentials,
+  .why-grid,
+  .audience-grid,
+  .advisory-list,
+  .contact-details-wide {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .professionals-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 @media (max-width: 1024px) {
   .audience-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -1127,7 +1343,9 @@ p {
 
 @media (max-width: 1024px) {
   .why-grid,
-  .expertise-list {
+  .expertise-list,
+  .advisory-list,
+  .testimonials-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
@@ -1137,12 +1355,17 @@ p {
   .about-credentials,
   .process-steps,
   .contact-layout,
-  .why-grid {
+  .why-grid,
+  .offices-grid,
+  .professionals-grid,
+  .professionals-grid-lead,
+  .testimonials-grid {
     grid-template-columns: 1fr;
     gap: var(--space-md);
   }
 
-  .expertise-list {
+  .expertise-list,
+  .advisory-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -1152,7 +1375,8 @@ p {
     border-bottom: 1px solid var(--color-border);
   }
 
-  .contact-details {
+  .contact-details,
+  .contact-details-wide {
     grid-template-columns: 1fr;
     gap: var(--space-md);
   }

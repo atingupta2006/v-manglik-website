@@ -6,8 +6,11 @@
  * - Contact person: CA Prashant Manglik
  * - Phone: +91 94127 15334
  * - Email: pm@manglikca.in
+ * - Offices: Hapur (head) + Noida
+ * - Hours: Mon–Sat 10:00–18:00
  *
- * Site is hosted on GitHub Pages (no custom-domain forward).
+ * Research asset: assets/firm-research.json
+ * Site hosted on GitHub Pages (no custom-domain forward).
  * Do not invent partner/leadership titles unless the firm confirms designation.
  * =============================================================================
  */
@@ -20,6 +23,10 @@ window.SITE_CONFIG = {
 
   /* Confirmed head-office address (also shown in HTML) */
   address: "177, Pucca Bagh, Hapur, Uttar Pradesh – 245101, India",
+
+  noidaAddress: "H-6, Sector-11, Noida, Uttar Pradesh – 201301, India",
+
+  officeHours: "Monday – Saturday, 10:00 AM – 6:00 PM",
 
   /* GitHub Pages host path (no custom domain forward) */
   domain: "atingupta2006.github.io/v-manglik-website",

@@ -15,17 +15,16 @@ firm:
   head_office_country: "India"
 
 contact:
-  # CONFIRMED
+  # CONFIRMED / firm-approved for publish
   address: "177, Pucca Bagh, Hapur, Uttar Pradesh – 245101, India"
   phone: "+91 94127 15334"
   email: "pm@manglikca.in"
   contact_person: "CA Prashant Manglik"
   website_domain: "atingupta2006.github.io/v-manglik-website"
-  # VERIFY — conflicting public listings; do not publish
-  office_hours: "[OFFICE HOURS — VERIFY]"
-  # VERIFY CURRENT NOIDA OFFICE STATUS — do not publish until confirmed
+  office_hours: "Monday–Saturday, 10:00 AM – 6:00 PM"
   noida_address: "H-6, Sector-11, Noida – 201301"
   google_maps_url: "https://www.google.com/maps/search/?api=1&query=177%20Pucca%20Bagh%2C%20Hapur%2C%20Uttar%20Pradesh%20245101"
+  research_asset: "assets/firm-research.json"
 
 seo:
   title: "V Manglik & Co. | Chartered Accountants in Hapur"
@@ -75,12 +74,20 @@ about:
     - title: "Sustainable Growth"
       text: "Support for compliance, financial performance and long-term growth."
 
-# DO NOT publish leadership until confirmed by the firm
-# VERIFY CURRENT PARTNER DESIGNATION
-# Historical/public research noted CA Prashant Manglik (Audit | Business Advisory)
-# and CA Vishal Manglik listings in Hapur — roles not confirmed for website use.
+# Leadership / professionals — published with conservative wording (see assets/firm-research.json)
 leadership:
-  publish: false
+  publish: true
+  people:
+    - name: "CA Vishal Manglik"
+      role: "Chartered Accountant · DISA"
+    - name: "CA Prashant Manglik"
+      role: "Audit | Business Advisory"
+    - name: "CA Harsh Agarwal"
+      role: "Auditing | Accounting | Taxation"
+    - name: "CA Palak Agarwal"
+      role: "Chartered Accountant"
+    - name: "Akshita Goel"
+      role: "Semi-qualified Chartered Accountant"
 
 audience:
   eyebrow: "Our Clients"
@@ -170,8 +177,8 @@ contact_section:
   heading: "Contact Us"
   intro: >-
     Enquiries are welcome from individuals and organisations seeking
-    professional chartered accountancy services. Visit or write to our head
-    office in Hapur.
+    professional chartered accountancy services. Visit or write to our
+    offices in Hapur and Noida.
 
 footer:
   copyright_year: 2026
