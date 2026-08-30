@@ -1,36 +1,45 @@
-/* Theme preset: Classic (default) — charcoal + ivory + muted gold */
-:root {
-  --color-primary: #1a1a1a;
-  --color-secondary: #3d3d3d;
-  --color-accent: #8a734a;
-  --color-accent-hover: #6f5c3a;
-  --color-background: #faf9f7;
-  --color-surface: #ffffff;
-  --color-surface-alt: #f3f1ed;
-  --color-text: #1a1a1a;
-  --color-muted: #5c5c5c;
-  --color-border: #e2dfd8;
-  --color-border-strong: #c9c4ba;
-  --color-focus: #8a734a;
-  --color-footer-bg: #1a1a1a;
-  --color-footer-text: #d8d5cf;
-  --color-footer-muted: #9a958c;
-  --color-footer-accent: #c4b48a;
+/* ============================================================
+   ACTIVE THEME — V Manglik & Co.
+   Improved contrast for ivory backgrounds (WCAG-friendlier labels).
+   ============================================================ */
 
+:root {
+  /* Colours */
+  --color-primary: #161616;
+  --color-secondary: #333333;
+  --color-accent: #6b5535;
+  --color-accent-hover: #554328;
+  --color-background: #f7f5f1;
+  --color-surface: #ffffff;
+  --color-surface-alt: #efebe4;
+  --color-text: #161616;
+  --color-muted: #4a4640;
+  --color-border: #ddd8cf;
+  --color-border-strong: #bdb6aa;
+  --color-focus: #6b5535;
+  --color-footer-bg: #161616;
+  --color-footer-text: #e4e0d8;
+  --color-footer-muted: #a8a094;
+  --color-footer-accent: #c9b48a;
+
+  /* Typography — system stacks only (no font downloads = instant load) */
   --font-serif: "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Times New Roman", serif;
   --font-sans: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
 
+  /* Layout */
   --max-width: 1120px;
-  --header-height: 4.5rem;
+  --header-height: 4.75rem;
   --radius: 2px;
-  --shadow-subtle: 0 1px 2px rgba(26, 26, 26, 0.04);
+  --shadow-subtle: 0 1px 2px rgba(22, 22, 22, 0.05);
 
+  /* Spacing scale */
   --space-xs: 0.5rem;
   --space-sm: 0.75rem;
   --space-md: 1.25rem;
   --space-lg: 2rem;
   --space-xl: 3.5rem;
-  --space-2xl: 5.5rem;
+  --space-2xl: 5rem;
 
+  /* Motion */
   --transition: 0.2s ease;
 }

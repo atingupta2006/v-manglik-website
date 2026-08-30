@@ -12,7 +12,7 @@
  * =============================================================================
  */
 window.SITE_CONFIG = {
-  contactPerson: "Prashant Manglik",
+  contactPerson: "CA Prashant Manglik",
 
   phone: "+91 94127 15334",
 

@@ -191,8 +191,9 @@ p {
 }
 
 .btn-nav {
-  padding: 0.55rem 1.1rem;
+  padding: 0.65rem 1.15rem;
   font-size: 0.75rem;
+  line-height: 1;
   background: var(--color-primary);
   color: var(--color-surface);
   border-color: var(--color-primary);
@@ -230,7 +231,7 @@ p {
 .brand {
   display: flex;
   align-items: center;
-  gap: 0.85rem;
+  gap: 0.9rem;
   text-decoration: none;
   color: var(--color-primary);
   flex-shrink: 0;
@@ -241,8 +242,8 @@ p {
 }
 
 .brand-logo {
-  width: 52px;
-  height: 52px;
+  width: 48px;
+  height: 48px;
   object-fit: contain;
   flex-shrink: 0;
 }
@@ -250,47 +251,51 @@ p {
 .brand-text {
   display: flex;
   flex-direction: column;
-  line-height: 1.15;
+  justify-content: center;
+  line-height: 1.2;
+  gap: 0.12rem;
 }
 
 .brand-name {
   font-family: var(--font-serif);
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
 
 .brand-sub {
-  font-size: 0.65rem;
-  font-weight: 500;
-  letter-spacing: 0.14em;
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--color-muted);
-  margin-top: 0.15rem;
 }
 
 .primary-nav {
   display: flex;
   align-items: center;
-  gap: var(--space-lg);
+  gap: 1.5rem;
 }
 
 .nav-list {
   display: flex;
   align-items: center;
-  gap: var(--space-lg);
+  gap: 1.5rem;
 }
 
 .nav-link {
-  font-size: 0.8125rem;
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   text-decoration: none;
   color: var(--color-secondary);
-  padding: 0.35rem 0;
-  border-bottom: 1px solid transparent;
+  padding: 0.5rem 0;
+  border-bottom: 2px solid transparent;
+  line-height: 1;
   transition: color var(--transition), border-color var(--transition);
 }
 
@@ -389,10 +394,24 @@ p {
 }
 
 .hero-positioning {
-  margin: var(--space-md) auto var(--space-xl);
-  max-width: 36rem;
+  margin: var(--space-md) auto var(--space-sm);
+  max-width: 40rem;
   font-size: 1.05rem;
   color: var(--color-secondary);
+}
+
+.hero-focus-line {
+  margin: 0 auto var(--space-xl);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+.hero-focus-line span {
+  margin: 0 0.35rem;
+  opacity: 0.55;
 }
 
 .hero-actions {
@@ -409,14 +428,12 @@ p {
   padding: var(--space-2xl) 0;
   background: var(--color-surface);
   border-bottom: 1px solid var(--color-border);
-  content-visibility: auto;
-  contain-intrinsic-size: 1px 720px;
 }
 
 .about-credentials {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: var(--space-md);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-lg);
   margin-bottom: var(--space-xl);
   padding: var(--space-lg) 0;
   border-top: 1px solid var(--color-border-strong);
@@ -426,22 +443,24 @@ p {
 .credential {
   display: flex;
   flex-direction: column;
-  gap: 0.35rem;
+  gap: 0.45rem;
+  min-width: 0;
 }
 
 .credential-label {
   font-size: 0.6875rem;
-  font-weight: 600;
-  letter-spacing: 0.14em;
+  font-weight: 700;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--color-accent);
 }
 
 .credential-value {
   font-family: var(--font-serif);
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   color: var(--color-primary);
   letter-spacing: 0.02em;
+  line-height: 1.3;
 }
 
 .about-lead {
@@ -458,12 +477,12 @@ p {
 
 .philosophy-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: var(--space-lg);
 }
 
 .principle {
-  padding: var(--space-lg) 0 0;
+  padding: var(--space-md) 0 0;
   border-top: 1px solid var(--color-border-strong);
 }
 
@@ -475,6 +494,69 @@ p {
 .principle p {
   color: var(--color-muted);
   font-size: 0.975rem;
+  max-width: none;
+}
+
+/* ------------------------------------------------------------
+   7b. Why Choose
+   ------------------------------------------------------------ */
+.why {
+  padding: var(--space-2xl) 0;
+  background: var(--color-background);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--space-md);
+  align-items: stretch;
+}
+
+.why-card {
+  height: 100%;
+  padding: 1.5rem;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+
+.why-card h3 {
+  margin-bottom: var(--space-sm);
+  font-size: 1.05rem;
+}
+
+.why-card p {
+  color: var(--color-muted);
+  font-size: 0.9375rem;
+  max-width: none;
+}
+
+/* ------------------------------------------------------------
+   7c. Expertise
+   ------------------------------------------------------------ */
+.expertise {
+  padding: var(--space-2xl) 0;
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.expertise-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+}
+
+.expertise-list li {
+  border: 1px solid var(--color-border-strong);
+  padding: 0.9rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--color-secondary);
+  background: var(--color-background);
 }
 
 /* ------------------------------------------------------------
@@ -484,20 +566,22 @@ p {
   padding: var(--space-2xl) 0;
   background: var(--color-background);
   border-bottom: 1px solid var(--color-border);
-  content-visibility: auto;
-  contain-intrinsic-size: 1px 720px;
 }
 
 .audience-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: var(--space-md);
+  align-items: stretch;
 }
 
 .audience-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   background: var(--color-surface);
   border: 1px solid var(--color-border);
-  padding: var(--space-lg) var(--space-md);
+  padding: 1.5rem;
   transition: border-color var(--transition);
 }
 
@@ -508,6 +592,11 @@ p {
 .card-icon {
   color: var(--color-accent);
   margin-bottom: var(--space-md);
+  line-height: 0;
+}
+
+.card-icon svg {
+  display: block;
 }
 
 .audience-card h3 {
@@ -518,6 +607,7 @@ p {
   color: var(--color-muted);
   font-size: 0.9375rem;
   max-width: none;
+  margin-top: auto;
 }
 
 /* ------------------------------------------------------------
@@ -527,14 +617,13 @@ p {
   padding: var(--space-2xl) 0;
   background: var(--color-surface);
   border-bottom: 1px solid var(--color-border);
-  content-visibility: auto;
-  contain-intrinsic-size: 1px 1200px;
 }
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: var(--space-md);
+  align-items: stretch;
 }
 
 .service-jump {
@@ -554,7 +643,8 @@ p {
   text-decoration: none;
   color: var(--color-secondary);
   border: 1px solid var(--color-border-strong);
-  padding: 0.45rem 0.75rem;
+  padding: 0.5rem 0.8rem;
+  line-height: 1;
   transition: color var(--transition), border-color var(--transition), background-color var(--transition);
 }
 
@@ -568,8 +658,9 @@ p {
 .service-card {
   display: flex;
   flex-direction: column;
+  height: 100%;
   border: 1px solid var(--color-border);
-  padding: var(--space-lg) var(--space-md);
+  padding: 1.5rem;
   background: var(--color-background);
   transition: border-color var(--transition);
   scroll-margin-top: 5.5rem;
@@ -662,17 +753,16 @@ p {
   padding: var(--space-2xl) 0;
   background: var(--color-surface);
   border-bottom: 1px solid var(--color-border);
-  content-visibility: auto;
-  contain-intrinsic-size: 1px 420px;
 }
 
 .process-steps {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: var(--space-lg);
   margin: 0;
   padding: 0;
+  align-items: start;
 }
 
 .process-step {
@@ -706,18 +796,28 @@ p {
   padding: var(--space-2xl) 0;
   background: var(--color-surface-alt);
   border-bottom: 1px solid var(--color-border);
-  content-visibility: auto;
-  contain-intrinsic-size: 1px 520px;
 }
 
-.contact-inner {
-  max-width: 48rem;
+.contact-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.15fr);
+  gap: var(--space-xl);
+  align-items: start;
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--color-border-strong);
 }
 
 .contact-office {
-  margin-bottom: var(--space-xl);
-  padding-bottom: var(--space-lg);
-  border-bottom: 1px solid var(--color-border);
+  padding-right: var(--space-lg);
+}
+
+.contact-office-note {
+  margin: 0 0 var(--space-sm);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-accent);
 }
 
 .contact-office-name {
@@ -725,13 +825,13 @@ p {
   font-size: 1.35rem;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.25rem;
 }
 
 .contact-office-role {
   font-size: 0.75rem;
   font-weight: 600;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--color-muted);
   margin-bottom: var(--space-md);
@@ -740,38 +840,34 @@ p {
 .contact-address {
   font-style: normal;
   font-size: 1.05rem;
-  line-height: 1.65;
+  line-height: 1.7;
   color: var(--color-text);
   max-width: none;
 }
 
-.contact-office-note {
-  margin-top: var(--space-sm);
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--color-accent);
+.contact-panel {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
 }
 
 .contact-details {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: var(--space-lg);
-  margin-bottom: var(--space-lg);
-  padding: var(--space-lg) 0;
-  border-top: 1px solid var(--color-border-strong);
-  border-bottom: 1px solid var(--color-border-strong);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-md);
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 .contact-item h3 {
   font-family: var(--font-sans);
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.14em;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--color-accent);
-  margin-bottom: var(--space-sm);
+  margin-bottom: 0.45rem;
 }
 
 .contact-item p,
@@ -782,6 +878,14 @@ p {
   text-decoration: none;
   word-break: break-word;
   max-width: none;
+  line-height: 1.45;
+}
+
+.contact-person-areas {
+  margin-top: 0.35rem !important;
+  font-size: 0.8125rem !important;
+  color: var(--color-muted) !important;
+  letter-spacing: 0.04em;
 }
 
 .contact-placeholder {
@@ -798,6 +902,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-sm);
+  margin: 0;
 }
 
 .contact-pending-note {
@@ -1022,12 +1127,31 @@ p {
   }
 }
 
+@media (max-width: 1024px) {
+  .why-grid,
+  .expertise-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 @media (max-width: 900px) {
   .philosophy-grid,
   .about-credentials,
-  .process-steps {
+  .process-steps,
+  .contact-layout,
+  .why-grid {
     grid-template-columns: 1fr;
     gap: var(--space-md);
+  }
+
+  .expertise-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .contact-office {
+    padding-right: 0;
+    padding-bottom: var(--space-md);
+    border-bottom: 1px solid var(--color-border);
   }
 
   .contact-details {
