@@ -18,6 +18,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 5.5rem;
+  overflow-x: clip;
 }
 
 body {
@@ -29,6 +30,11 @@ body {
   background-color: var(--color-background);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: clip;
+}
+
+body.nav-open {
+  overflow: hidden;
 }
 
 img {
@@ -553,7 +559,7 @@ p {
 
 .why-grid {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: var(--space-md);
   align-items: stretch;
 }
@@ -700,7 +706,7 @@ p {
 
 .audience-grid {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: var(--space-md);
   align-items: stretch;
 }
@@ -1353,30 +1359,36 @@ p {
    12. Responsive Styles
    ------------------------------------------------------------ */
 
-/* Tablet */
+html {
+  overflow-x: clip;
+}
+
+.mobile-actions {
+  display: none;
+}
+
+/* Large tablet / small laptop */
 @media (max-width: 1100px) {
   .about-credentials,
   .why-grid,
   .audience-grid,
   .advisory-list,
-  .contact-details-wide {
+  .expertise-list,
+  .contact-details-wide,
+  .testimonials-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .professionals-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .services-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 1024px) {
-  .audience-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .services-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   .footer-inner {
     grid-template-columns: 1fr 1fr;
   }
@@ -1386,25 +1398,18 @@ p {
   }
 }
 
-@media (max-width: 1024px) {
-  .why-grid,
-  .expertise-list,
-  .advisory-list,
-  .testimonials-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
+/* Narrow tablet */
 @media (max-width: 900px) {
   .philosophy-grid,
   .about-credentials,
   .process-steps,
   .contact-layout,
-  .why-grid,
   .offices-grid,
   .professionals-grid,
   .professionals-grid-lead,
-  .testimonials-grid {
+  .testimonials-grid,
+  .why-grid,
+  .audience-grid {
     grid-template-columns: 1fr;
     gap: var(--space-md);
   }
@@ -1425,24 +1430,72 @@ p {
     grid-template-columns: 1fr;
     gap: var(--space-md);
   }
+
+  .service-jump {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    gap: 0.5rem;
+    padding-bottom: 0.85rem;
+  }
+
+  .service-jump a {
+    flex: 0 0 auto;
+    min-height: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+  }
 }
 
-/* Mobile navigation + layout */
+/* Phones */
 @media (max-width: 768px) {
   html {
-    scroll-padding-top: 4.75rem;
+    scroll-padding-top: 4.5rem;
+    scroll-padding-bottom: 4.5rem;
   }
 
   :root {
     --header-height: 4rem;
+    --space-2xl: 3.25rem;
+    --space-xl: 2.5rem;
+  }
+
+  body {
+    padding-bottom: calc(3.75rem + env(safe-area-inset-bottom, 0px));
+    font-size: 1rem;
+  }
+
+  .container {
+    width: min(100% - 1.5rem, var(--max-width));
+  }
+
+  .site-header {
+    padding-top: env(safe-area-inset-top, 0px);
   }
 
   .brand-text {
+    display: flex;
+  }
+
+  .brand-name {
+    font-size: 0.8125rem;
+    max-width: 11rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .brand-sub {
     display: none;
   }
 
   .nav-toggle {
     display: flex;
+    width: 2.75rem;
+    height: 2.75rem;
+    min-width: 44px;
+    min-height: 44px;
   }
 
   .primary-nav {
@@ -1453,7 +1506,9 @@ p {
     flex-direction: column;
     align-items: stretch;
     gap: 0;
-    padding: var(--space-md) 1.25rem var(--space-lg);
+    max-height: calc(100dvh - var(--header-height) - env(safe-area-inset-top, 0px));
+    overflow-y: auto;
+    padding: var(--space-md) 1.25rem calc(var(--space-lg) + env(safe-area-inset-bottom, 0px));
     background: var(--color-surface);
     border-bottom: 1px solid var(--color-border);
     box-shadow: 0 8px 24px rgba(26, 26, 26, 0.08);
@@ -1473,7 +1528,9 @@ p {
 
   .nav-link {
     display: flex;
+    align-items: center;
     height: auto;
+    min-height: 2.75rem;
     justify-content: flex-start;
     padding: 0.85rem 0;
     border-bottom: 1px solid var(--color-border);
@@ -1490,10 +1547,38 @@ p {
 
   .btn-nav {
     width: 100%;
+    min-height: 2.75rem;
   }
 
   .hero {
-    padding: var(--space-xl) 0 var(--space-2xl);
+    padding: 2.25rem 0 2.75rem;
+  }
+
+  .hero-inner .eyebrow {
+    font-size: 0.6875rem;
+    letter-spacing: 0.12em;
+    line-height: 1.45;
+  }
+
+  .hero-title {
+    font-size: clamp(1.85rem, 9vw, 2.5rem);
+    letter-spacing: 0.03em;
+  }
+
+  .hero-profession {
+    letter-spacing: 0.14em;
+    font-size: 0.875rem;
+  }
+
+  .hero-tagline,
+  .hero-focus-line {
+    letter-spacing: 0.08em;
+    font-size: 0.75rem;
+    line-height: 1.5;
+  }
+
+  .hero-positioning {
+    font-size: 0.975rem;
   }
 
   .hero-actions {
@@ -1504,16 +1589,49 @@ p {
   .hero-actions .btn {
     width: 100%;
     min-width: 0;
+    min-height: 2.85rem;
   }
 
+  .section-header {
+    margin-bottom: var(--space-lg);
+  }
+
+  .section-header h2 {
+    font-size: clamp(1.45rem, 6vw, 1.85rem);
+  }
+
+  .why-grid,
   .audience-grid,
-  .services-grid {
-    grid-template-columns: 1fr;
-  }
-
+  .services-grid,
+  .expertise-list,
+  .advisory-list,
+  .philosophy-grid,
+  .about-credentials,
+  .process-steps,
+  .offices-grid,
+  .professionals-grid,
+  .professionals-grid-lead,
+  .testimonials-grid,
+  .contact-details,
+  .contact-details-wide,
   .footer-inner {
     grid-template-columns: 1fr;
-    gap: var(--space-lg);
+    gap: var(--space-md);
+  }
+
+  .audience-card,
+  .service-card {
+    padding: 1.15rem;
+  }
+
+  .trust-rating {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+  }
+
+  .trust-score {
+    font-size: 3rem;
   }
 
   .contact-actions {
@@ -1522,43 +1640,117 @@ p {
 
   .contact-actions .btn {
     width: 100%;
+    min-height: 2.85rem;
   }
-}
 
-@media (max-width: 768px) {
+  .contact-item a,
+  .footer-meta a {
+    word-break: break-word;
+  }
+
+  .faq-item summary {
+    min-height: 2.75rem;
+    padding-top: 0.85rem;
+    padding-bottom: 0.85rem;
+  }
+
   .footer-bottom-inner {
     flex-direction: column;
+  }
+
+  .mobile-actions {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 90;
+    background: var(--color-primary);
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    padding: 0 env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px);
+  }
+
+  .mobile-actions a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 3.25rem;
+    padding: 0.75rem 0.85rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-surface);
+    line-height: 1.2;
+  }
+
+  .mobile-actions-call {
+    background: var(--color-primary);
+    border-right: 1px solid rgba(255, 255, 255, 0.14);
+  }
+
+  .mobile-actions-email {
+    background: var(--color-secondary);
+  }
+
+  .mobile-actions a:hover,
+  .mobile-actions a:focus-visible {
+    color: var(--color-surface);
+    opacity: 0.92;
   }
 }
 
 @media (max-width: 430px) {
   .container {
-    width: min(100% - 1.75rem, var(--max-width));
+    width: min(100% - 1.25rem, var(--max-width));
   }
 
   .brand-logo {
-    width: 44px;
-    height: 44px;
+    width: 40px;
+    height: 40px;
   }
 
-  .service-card,
-  .audience-card {
-    padding: var(--space-md);
+  .brand-name {
+    max-width: 9.5rem;
+    font-size: 0.75rem;
   }
 
   .btn {
-    padding: 0.8rem 1.25rem;
+    padding: 0.85rem 1.15rem;
+  }
+
+  .expertise-list,
+  .advisory-list {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-focus-line,
+  .hero-tagline {
+    letter-spacing: 0.06em;
   }
 }
 
 @media (max-width: 320px) {
   body {
-    font-size: 1rem;
+    font-size: 0.975rem;
   }
 
-  .hero-tagline {
-    letter-spacing: 0.08em;
-    font-size: 0.8125rem;
+  .brand-text {
+    display: none;
+  }
+
+  .mobile-actions a {
+    font-size: 0.6875rem;
+    letter-spacing: 0.05em;
+  }
+}
+
+@media (min-width: 769px) {
+  .mobile-actions {
+    display: none !important;
   }
 }
 
@@ -1605,13 +1797,15 @@ p {
   .site-header,
   .nav-toggle,
   .hero-actions,
-  .contact-actions {
-    display: none;
+  .contact-actions,
+  .mobile-actions {
+    display: none !important;
   }
 
   body {
     background: white;
     color: black;
+    padding-bottom: 0;
   }
 
   .service-card,

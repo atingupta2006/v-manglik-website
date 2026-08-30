@@ -107,6 +107,7 @@
     toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
     toggle.setAttribute("aria-label", isOpen ? "Close menu" : "Open menu");
     nav.classList.toggle("is-open", isOpen);
+    document.body.classList.toggle("nav-open", isOpen);
   }
 
   function closeMenu() {
