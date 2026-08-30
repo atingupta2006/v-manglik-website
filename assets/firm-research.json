@@ -1010,5 +1010,76 @@
       "Official manglikca.in website (email domain only so far)"
     ],
     "recommendation": "Ask firm for photos + GBP link + WhatsApp yes/no + Partner title yes/no. From web we can only add LinkedIn company page and keep Justdial as secondary reference."
+  },
+  "firm_confirmation_checklist": {
+    "decision_date": "2026-08-30",
+    "purpose": "Firm confirmation checklist before final website completion",
+    "decisions": [
+      {
+        "item": "8-12 original photos",
+        "recommendation": "REQUEST_FROM_FIRM",
+        "publish_without_firm_files": false
+      },
+      {
+        "item": "Official Google Business Profile / Maps Share link",
+        "recommendation": "REQUEST_FROM_FIRM",
+        "interim": "Address-based Maps search + Justdial secondary listing only"
+      },
+      {
+        "item": "CA Prashant Manglik — Partner",
+        "evidence": [
+          "ICAI 2023 firm association (membership 079552)",
+          "2004 HPDA historical Partner record",
+          "LinkedIn self-listed Partner"
+        ],
+        "recommendation": "LIKELY_YES_BUT_CONFIRM_CURRENT_DESIGNATION",
+        "website_status": "NOT_PUBLISHED_UNTIL_CONFIRMED"
+      },
+      {
+        "item": "WhatsApp",
+        "recommendation": "ASK_FIRM",
+        "website_status": "NOT_FOUND_RELIABLY"
+      },
+      {
+        "item": "Bhagyashree",
+        "recommendation": "DO_NOT_PUBLISH",
+        "note": "Insufficient reliable evidence; LinkedIn company page may list name but role unconfirmed"
+      },
+      {
+        "item": "Ankit",
+        "recommendation": "DO_NOT_PUBLISH",
+        "note": "Insufficient reliable evidence"
+      },
+      {
+        "item": "Delhi office",
+        "recommendation": "DO_NOT_PUBLISH",
+        "note": "Professional city on profiles ≠ firm office"
+      },
+      {
+        "item": "Ghaziabad office",
+        "recommendation": "DO_NOT_PUBLISH",
+        "note": "ICAI address wording Distt Ghaziabad, Hapur is administrative, not a separate office"
+      }
+    ],
+    "additional_credibility": {
+      "itat_appearance": {
+        "person": "CA Prashant Manglik",
+        "forum": "Income Tax Appellate Tribunal, Delhi Bench",
+        "year": 2019,
+        "source": "https://indiankanoon.org/doc/118362958/",
+        "case_title": "Shri Ram Piston And Rings Employees ... vs Ito, Ward- 2(3), Ghaziabad on 29 May, 2019",
+        "website_usage": "Supports tax litigation / representation positioning; do not overstate outcomes",
+        "safe_wording": "CA Prashant Manglik has appeared in income-tax appellate proceedings before the ITAT."
+      }
+    },
+    "seven_confirmations_to_ask_firm": [
+      "8–12 original website photographs (office + headshots)",
+      "Official Google Business Profile / Google Maps Share link",
+      "Permission to publish “CA Prashant Manglik — Partner”",
+      "Official WhatsApp number if available",
+      "Who are Bhagyashree and Ankit, and should they appear?",
+      "Do you currently operate a Delhi office?",
+      "Do you currently operate a Ghaziabad office?"
+    ]
   }
 }
