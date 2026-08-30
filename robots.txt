@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://manglikca.in/sitemap.xml
+Sitemap: https://atingupta2006.github.io/v-manglik-website/sitemap.xml

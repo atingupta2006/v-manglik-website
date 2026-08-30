@@ -3,11 +3,11 @@
  * SITE CONFIG — edit this file to update live contact / SEO values
  * =============================================================================
  * Confirmed by firm (Aug 2026):
- * - Contact person: Prashant Manglik
+ * - Contact person: CA Prashant Manglik
  * - Phone: +91 94127 15334
  * - Email: pm@manglikca.in
- * - Domain: manglikca.in
  *
+ * Site is hosted on GitHub Pages (no custom-domain forward).
  * Do not invent partner/leadership titles unless the firm confirms designation.
  * =============================================================================
  */
@@ -21,8 +21,8 @@ window.SITE_CONFIG = {
   /* Confirmed head-office address (also shown in HTML) */
   address: "177, Pucca Bagh, Hapur, Uttar Pradesh – 245101, India",
 
-  /* Domain only — no https:// */
-  domain: "manglikca.in",
+  /* GitHub Pages host path (no custom domain forward) */
+  domain: "atingupta2006.github.io/v-manglik-website",
 
   /* Optional SEO overrides (leave blank "" to keep HTML <head> values) */
   metaDescription: "",
