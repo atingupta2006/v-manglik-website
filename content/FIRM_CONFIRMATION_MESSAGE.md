@@ -10,7 +10,7 @@ We are finalising the V Manglik & Co. website and need a few confirmations so we
 
 Please reply with:
 
-1. **Photographs (8–12)** — office exterior/interior + partner/team headshots (original files preferred).  
+1. **Photographs (more)** — we have published one office-interior photo; please still send exterior, reception, and partner/team headshots (original files preferred).  
 2. **Google Business / Maps Share link** — Open **V Manglik & Co. (Chartered Accountants)** in Google Maps → **Share** → **Copy link** → send that URL.  
    (We have found the Maps listing at 177, Pucca Bagh, Hapur, place ID `ChIJTzpX9K6FDDkRachYv44z-aE`, but we prefer your official Share link before treating it as the firm’s claimed profile.)  
 3. **Google rating on website** — May we show the Google Maps rating/review count (currently ~5.0 / 21)? (Justdial attribution is already on the site; Google would be separate.)  

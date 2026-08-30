@@ -7,7 +7,10 @@
       "item": "8-12 original photos",
       "recommendation": "REQUEST_FROM_FIRM",
       "publish_without_firm_files": false,
-      "website_status": "PLACEHOLDER_ONLY"
+      "website_status": "FIRST_OFFICE_INTERIOR_PUBLISHED_MORE_NEEDED",
+      "published": [
+        "assets/images/office-interior.jpg"
+      ]
     },
     {
       "item": "Official Google Business Profile / Maps Share link",

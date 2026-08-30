@@ -2,19 +2,26 @@
   "research_date": "2026-08-30",
   "purpose": "Identify photographs, images, gallery material, professional profiles and other visual references suitable for the V Manglik & Co. website.",
   "overall_conclusion": {
-    "public_office_photos_found": false,
+    "public_office_photos_found": true,
     "public_firm_gallery_found": false,
     "public_team_gallery_found": false,
     "official_firm_logo_found": "Provided directly by client",
     "professional_profile_photos_found": true,
     "professional_activity_visuals_found": true,
-    "recommended_action": "Use client-provided media wherever possible. Use external profile links as references rather than copying images without permission."
+    "recommended_action": "Use client-provided media wherever possible. Use external profile links as references rather than copying images without permission.",
+    "note": "Firm-supplied office interior photograph published 2026-08-30"
   },
   "confirmed_brand_asset": {
     "asset": "V Manglik & Co. logo",
     "source": "Client-provided logo",
     "local_file": "assets/logo.png",
-    "website_usage": ["Header logo", "Hero branding", "Favicon / apple-touch", "Footer branding", "OG image"],
+    "website_usage": [
+      "Header logo",
+      "Hero branding",
+      "Favicon / apple-touch",
+      "Footer branding",
+      "OG image"
+    ],
     "permission": "Client-provided asset; suitable for website use",
     "priority": "critical"
   },
@@ -97,7 +104,12 @@
   ],
   "recommended_website_gallery": {
     "gallery_name": "Our Practice",
-    "categories": ["Our Office", "Our Professionals", "Professional Activities", "Learning & Development"],
+    "categories": [
+      "Our Office",
+      "Our Professionals",
+      "Professional Activities",
+      "Learning & Development"
+    ],
     "initial_gallery_size": "6-10 images",
     "avoid": [
       "Generic stock photos",
@@ -133,9 +145,22 @@
   },
   "website_publish_decisions": {
     "copy_third_party_photos": false,
-    "show_gallery_placeholders_until_firm_photos": true,
+    "show_gallery_placeholders_until_firm_photos": false,
     "link_linkedin_profiles": true,
     "link_icai_lof_pdf": true,
-    "link_historical_pdf_on_homepage": false
-  }
+    "link_historical_pdf_on_homepage": false,
+    "gallery_has_first_photo": true
+  },
+  "published_media": [
+    {
+      "file": "assets/images/office-interior.jpg",
+      "webp": "assets/images/office-interior.webp",
+      "type": "office_interior",
+      "alt": "Interior of V Manglik & Co. Hapur office",
+      "permission": "Provided for website use",
+      "website_usage": [
+        "#gallery"
+      ]
+    }
+  ]
 }

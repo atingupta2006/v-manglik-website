@@ -34,6 +34,10 @@ window.SITE_CONFIG = {
 
   mapsUrl: "https://www.google.com/maps/search/?api=1&query_place_id=ChIJTzpX9K6FDDkRachYv44z-aE",
 
+  mapsDirectionsUrl: "https://www.google.com/maps/dir/?api=1&destination=V+Manglik+%26+Co.+%28Chartered+Accountants%29%2C+177%2C+Pucca+Bagh%2C+Mani+Pakka+Bagh%2C+Hapur%2C+Uttar+Pradesh+245101%2C+India",
+
+  geo: { lat: 28.7305, lng: 77.7838 },
+
   officeHours: "Monday – Saturday, 10:00 AM – 6:00 PM",
 
   /* GitHub Pages host path (no custom domain forward) */

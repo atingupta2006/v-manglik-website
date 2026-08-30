@@ -78,10 +78,21 @@ If you change `--color-primary`, also update `theme-color` meta in `index.html` 
 Section IDs in `index.html`:
 
 - `#home` — hero
-- `#philosophy` — trust / philosophy
+- `#about` — about / credentials
+- `#why` — why choose us
+- `#expertise` — expertise themes
+- `#professionals` — team
 - `#audience` — who we serve
 - `#services` — services
+- `#enquire` — mid-page CTA
+- `#process` — how we engage
+- `#gallery` — office photography
+- `#trust` — ratings & local presence
+- `#resources` — useful resources
+- `#faq` — FAQ
 - `#contact` — contact
+
+Live contact overrides: `site-config.js` (`phone`, `email`, `whatsapp`, `mapsUrl`, `mapsDirectionsUrl`).
 
 ---
 

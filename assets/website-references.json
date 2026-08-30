@@ -28,7 +28,10 @@
         "type": "linkedin_profile",
         "url": "https://in.linkedin.com/in/ca-prashant-manglik",
         "association": "V Manglik & Co.",
-        "professional_areas_found": ["Audit", "Business Advisory"],
+        "professional_areas_found": [
+          "Audit",
+          "Business Advisory"
+        ],
         "website_usage": "Potential leadership/professional profile",
         "status": "strong_public_evidence",
         "website_publish": true
@@ -38,7 +41,11 @@
         "type": "linkedin_profile",
         "url": "https://in.linkedin.com/in/harshagarwal192",
         "association": "V Manglik & Co.",
-        "professional_areas_found": ["Auditing", "Accounting", "Taxation"],
+        "professional_areas_found": [
+          "Auditing",
+          "Accounting",
+          "Taxation"
+        ],
         "website_usage": "Potential team/professional expertise section",
         "status": "public_professional_profile",
         "website_publish": true
@@ -94,7 +101,12 @@
         "url": "https://www.justdial.com/Hapur/V-Manglik-Co-Pucca-Bagh/9999PX122-X122-140505222559-X5E2_BZDET",
         "address": "177, Pucca Bagh, Mani Pakka Bagh, Hapur, Uttar Pradesh 245101, India",
         "category": "Chartered Accountant",
-        "services_or_keywords_found": ["Income Tax", "GST", "TDS", "GST Refund"],
+        "services_or_keywords_found": [
+          "Income Tax",
+          "GST",
+          "TDS",
+          "GST Refund"
+        ],
         "rating_found": "5.0",
         "review_count_found": 21,
         "website_usage": "Secondary rating attribution / location verification",
@@ -158,14 +170,17 @@
     "potential_future_links": [
       {
         "name": "Official Google Business Profile",
-        "url": null,
-        "status": "needs_firm_confirmation",
-        "priority": "high"
+        "url": "https://www.google.com/maps/search/?api=1&query_place_id=ChIJTzpX9K6FDDkRachYv44z-aE",
+        "status": "place_id_interim_published_share_url_pending",
+        "priority": "high",
+        "place_id": "ChIJTzpX9K6FDDkRachYv44z-aE",
+        "directions_url": "https://www.google.com/maps/dir/?api=1&destination=V+Manglik+%26+Co.+%28Chartered+Accountants%29%2C+177%2C+Pucca+Bagh%2C+Mani+Pakka+Bagh%2C+Hapur%2C+Uttar+Pradesh+245101%2C+India",
+        "share_url": null
       },
       {
         "name": "Official LinkedIn Company Page",
-        "url": null,
-        "status": "needs_firm_confirmation",
+        "url": "https://www.linkedin.com/company/v-manglik-co",
+        "status": "published",
         "priority": "high"
       },
       {
@@ -182,10 +197,13 @@
       },
       {
         "name": "Official Google Maps Location",
-        "url": null,
-        "status": "needs_firm_confirmation",
+        "url": "https://www.google.com/maps/search/?api=1&query_place_id=ChIJTzpX9K6FDDkRachYv44z-aE",
+        "status": "place_id_interim_published_share_url_pending",
         "priority": "high",
-        "interim": "Address search Maps links published for Hapur and Noida"
+        "interim": "Address search Maps links published for Hapur and Noida",
+        "place_id": "ChIJTzpX9K6FDDkRachYv44z-aE",
+        "directions_url": "https://www.google.com/maps/dir/?api=1&destination=V+Manglik+%26+Co.+%28Chartered+Accountants%29%2C+177%2C+Pucca+Bagh%2C+Mani+Pakka+Bagh%2C+Hapur%2C+Uttar+Pradesh+245101%2C+India",
+        "share_url": null
       },
       {
         "name": "Official Domain",
@@ -197,17 +215,44 @@
   },
   "recommended_website_links": {
     "main_navigation": [
-      { "label": "Home", "target": "#home" },
-      { "label": "About", "target": "#about" },
-      { "label": "Services", "target": "#services" },
-      { "label": "Resources", "target": "#resources" },
-      { "label": "Contact", "target": "#contact" }
+      {
+        "label": "Home",
+        "target": "#home"
+      },
+      {
+        "label": "About",
+        "target": "#about"
+      },
+      {
+        "label": "Services",
+        "target": "#services"
+      },
+      {
+        "label": "Resources",
+        "target": "#resources"
+      },
+      {
+        "label": "Contact",
+        "target": "#contact"
+      }
     ],
     "footer": [
-      { "label": "ICAI", "url": "https://www.icai.org/" },
-      { "label": "Income Tax Department", "url": "https://www.incometax.gov.in/" },
-      { "label": "GST Portal", "url": "https://www.gst.gov.in/" },
-      { "label": "MCA", "url": "https://www.mca.gov.in/" }
+      {
+        "label": "ICAI",
+        "url": "https://www.icai.org/"
+      },
+      {
+        "label": "Income Tax Department",
+        "url": "https://www.incometax.gov.in/"
+      },
+      {
+        "label": "GST Portal",
+        "url": "https://www.gst.gov.in/"
+      },
+      {
+        "label": "MCA",
+        "url": "https://www.mca.gov.in/"
+      }
     ]
   },
   "recommended_external_link_policy": {

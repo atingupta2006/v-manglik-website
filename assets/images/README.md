@@ -1,20 +1,13 @@
-# Firm photography — drop approved files here
+# Firm photographs
 
-Do **not** copy LinkedIn, Justdial, Google, or stock images into this folder without written permission.
+## Published
+- `office-interior.jpg` / `office-interior.webp` — Hapur office interior (live in `#gallery`)
 
-## Request from the firm (priority)
+## Still requested
+- Office exterior
+- Reception
+- Leadership / team headshots
+- Team group and activity photos
+- Certificates (optional)
 
-1. `office-exterior.webp` — Contact / location
-2. `office-reception.webp` — About
-3. `office-interior.webp` — About / gallery
-4. `team-group.webp` — Professionals
-5. `prashant-manglik.webp` — Leadership
-6. `harsh-agarwal.webp` — Team
-7. `palak-agarwal.webp` — Team
-8. `priya-manglik.webp` — Team
-9. `kavya-agarwal.webp` — Team
-10. Optional: working / meeting / event / certificate photos
-
-Prefer WebP for photos. Logo stays at `../logo.png`.
-
-When files arrive, place them here and update the Our Practice gallery on `index.html`.
+Drop approved originals here. Prefer WebP + JPEG. Do not scrape LinkedIn/Justdial images.

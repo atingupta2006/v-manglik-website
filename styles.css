@@ -1084,7 +1084,7 @@ p {
 }
 
 .contact-details-wide {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
 }
 
 .footer-office-label-spaced {
@@ -1300,6 +1300,51 @@ p {
   padding: var(--space-2xl) 0;
   background: var(--color-surface);
   border-bottom: 1px solid var(--color-border);
+}
+
+.gallery-feature {
+  margin: 0 0 var(--space-xl);
+  border: 1px solid var(--color-border);
+  background: var(--color-background);
+}
+
+.gallery-feature img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 28rem;
+  object-fit: cover;
+  object-position: center;
+}
+
+.gallery-feature figcaption {
+  padding: 0.85rem 1rem;
+  font-size: 0.875rem;
+  color: var(--color-muted);
+  border-top: 1px solid var(--color-border);
+}
+
+.trust-maps {
+  margin: var(--space-md) 0 0;
+  max-width: 42rem;
+  font-size: 0.9375rem;
+  color: var(--color-secondary);
+  line-height: 1.6;
+}
+
+.trust-maps a {
+  color: var(--color-accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.trust-maps a:hover {
+  text-decoration: underline;
+}
+
+.office-map-sep {
+  margin: 0 0.4rem;
+  color: var(--color-border-strong);
 }
 
 .gallery-request-list {
