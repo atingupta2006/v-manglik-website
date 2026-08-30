@@ -1,80 +1,45 @@
 {
   "decision_date": "2026-08-30",
   "purpose": "Firm confirmation checklist before final website completion",
-  "last_status_check": "2026-08-30T18:28+05:30",
+  "last_status_check": "2026-08-30T18:44+05:30",
   "decisions": [
     {
       "item": "8-12 original photos",
       "recommendation": "REQUEST_FROM_FIRM",
-      "publish_without_firm_files": false,
       "website_status": "FIRST_OFFICE_INTERIOR_PUBLISHED_MORE_NEEDED",
-      "published": [
-        "assets/images/office-interior.jpg"
-      ]
+      "published": ["assets/images/office-interior.jpg"]
     },
     {
-      "item": "Official Google Business Profile / Maps Share link",
-      "recommendation": "PROVIDED",
-      "place_id_found": "ChIJTzpX9K6FDDkRachYv44z-aE",
-      "google_maps_share_url": "https://www.google.com/maps/search/?api=1&query_place_id=ChIJTzpX9K6FDDkRachYv44z-aE",
-      "website_status": "PUBLISHED",
-      "note": "share.google rejected — redirects to manglikca.in; using place_id Maps URL"
+      "item": "CA Vishal Manglik title",
+      "firm_reply": "main owner",
+      "published_title": "Owner",
+      "website_status": "PUBLISHED"
     },
     {
       "item": "CA Prashant Manglik title",
-      "firm_reply": "Director or Owner",
-      "published_title": "Director / Owner",
+      "firm_reply": "Director (Vishal is main owner)",
+      "published_title": "Director",
       "website_status": "PUBLISHED"
+    },
+    {
+      "item": "Official Google Business Profile / Maps Share link",
+      "website_status": "COORDINATE_PIN_ONLY",
+      "note": "GBP website field points to manglikca.in; place_id/share links avoided"
     },
     {
       "item": "WhatsApp",
-      "recommendation": "PROVIDED",
       "value": "+91 80066 21510",
-      "wa_me": "https://wa.me/918006621510",
       "website_status": "PUBLISHED"
-    },
-    {
-      "item": "Bhagyashree",
-      "recommendation": "DO_NOT_PUBLISH",
-      "website_status": "NOT_PUBLISHED"
-    },
-    {
-      "item": "Ankit",
-      "recommendation": "DO_NOT_PUBLISH",
-      "website_status": "NOT_PUBLISHED"
-    },
-    {
-      "item": "Delhi office",
-      "recommendation": "DO_NOT_PUBLISH",
-      "website_status": "NOT_PUBLISHED"
-    },
-    {
-      "item": "Ghaziabad office",
-      "recommendation": "DO_NOT_PUBLISH",
-      "website_status": "NOT_PUBLISHED"
     },
     {
       "item": "Google Maps rating on website as Google",
-      "recommendation": "PROVIDED",
       "display_text": "5.0 ★★★★★ on Google",
-      "rating": 5.0,
-      "review_count": 21,
-      "website_status": "PUBLISHED_AS_GOOGLE",
-      "google_ratings_url": "https://www.google.com/maps/place/?q=place_id:ChIJTzpX9K6FDDkRachYv44z-aE"
+      "website_status": "PUBLISHED_AS_TEXT_NO_GBP_LINK"
     },
     {
       "item": "Both Hapur addresses",
-      "recommendation": "PROVIDED",
-      "addresses": [
-        "177, Pucca Bagh",
-        "81, Pucca Bagh"
-      ],
+      "addresses": ["177, Pucca Bagh", "81, Pucca Bagh"],
       "website_status": "PUBLISHED"
-    },
-    {
-      "item": "Office hours Sunday / 20:00 close",
-      "recommendation": "CONFIRM_WITH_FIRM",
-      "website_status": "PUBLISHING_MAPS_SUMMARY_MON_SAT_10_18_ONLY"
     }
   ],
   "blocking_for_100_percent": [

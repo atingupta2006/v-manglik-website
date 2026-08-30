@@ -1,7 +1,8 @@
 ## Applied from firm reply (2026-08-30)
 
+- CA Vishal Manglik: **Owner** (main owner)
+- CA Prashant Manglik: **Director**
 - Maps Share URL published
-- CA Prashant Manglik title: **Director / Owner**
 - Google rating 5.0 / 21 labelled as Google
 - Both Hapur addresses: **177** and **81**, Pucca Bagh
 

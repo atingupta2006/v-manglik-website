@@ -24,7 +24,6 @@
       "note": "Do not forward GitHub Pages to manglikca.in unless explicitly requested again."
     },
     "approved_for_website": [
-      "CA Vishal Manglik name (no founder/partner/owner titles)",
       "Noida office as current second office",
       "Office hours Monday–Saturday 10:00–18:00",
       "Public listing rating 5.0 (21 reviews)",
@@ -35,10 +34,10 @@
       "Google Maps Share URL",
       "Google rating 5.0 / 21 labelled as Google",
       "Hapur addresses 177 and 81 Pucca Bagh",
-      "CA Prashant Manglik as Director / Owner"
+      "CA Vishal Manglik as Owner (main owner)",
+      "CA Prashant Manglik as Director"
     ],
     "still_do_not_publish": [
-      "Vishal Manglik as founder/partner/managing partner/owner",
       "Vishal Manglik private-company directorships on the CA firm site",
       "Anurag Bhardwaj (internal research only until role confirmed)",
       "Awards, client logos, client counts, pan-India or international claims",
@@ -1137,8 +1136,14 @@
     "redirect_note": "Google Business Profile website field points to manglikca.in. Any place_id / share.google / GBP deep link can send visitors there. Website therefore uses coordinate map pins only and shows Google rating as text."
   },
   "confirmed_titles": {
+    "CA Vishal Manglik": {
+      "title": "Owner",
+      "status": "firm_confirmed",
+      "note": "main owner",
+      "website_publish": true
+    },
     "CA Prashant Manglik": {
-      "title": "Director / Owner",
+      "title": "Director",
       "status": "firm_confirmed",
       "website_publish": true
     }

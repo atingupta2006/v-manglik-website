@@ -3,7 +3,8 @@
  * SITE CONFIG — edit this file to update live contact / SEO values
  * =============================================================================
  * Confirmed by firm (Aug 2026):
- * - Contact person: CA Prashant Manglik — Director / Owner
+ * - Contact person: CA Prashant Manglik — Director
+ * - Main owner: CA Vishal Manglik — Owner
  * - Phone: 01222312151
  * - Email: pm@manglikca.in
  * - Offices: Hapur (177 & 81, Pucca Bagh) + Noida
@@ -19,7 +20,9 @@
 window.SITE_CONFIG = {
   contactPerson: "CA Prashant Manglik",
 
-  prashantTitle: "Director / Owner",
+  prashantTitle: "Director",
+
+  vishalTitle: "Owner",
 
   phone: "01222312151",
 
