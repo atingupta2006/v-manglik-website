@@ -4,22 +4,32 @@
  * =============================================================================
  * Keep in sync with content/content.yaml → contact + seo sections.
  *
- * After editing, refresh the browser. No build step required.
- * Leave a value as a placeholder string to keep the HTML fallback text.
+ * CONFIRMED address is also hard-coded in index.html (Head Office, Hapur).
+ *
+ * VERIFY BEFORE PUBLISHING:
+ * - phone (researched listing seen publicly: +91 1222 312151 — unconfirmed)
+ * - email (no reliable official address identified)
+ * - domain
+ *
+ * After a value is verified, replace the placeholder below (do not keep "[").
+ * Call/Email buttons activate only when values are non-placeholders.
  * =============================================================================
  */
 window.SITE_CONFIG = {
-  /* --- Contact (replace placeholders before go-live) --- */
-  phone: "[PHONE NUMBER]",
-  email: "[EMAIL ADDRESS]",
-  address: "[OFFICE ADDRESS]",
+  /* VERIFY OFFICIAL PHONE NUMBER BEFORE PRODUCTION */
+  phone: "[PHONE NUMBER — VERIFY]",
 
-  /* Domain only — no https://  Example: "www.example.com" */
+  /* Replace with official firm email before production */
+  email: "[OFFICIAL EMAIL ADDRESS]",
+
+  /* Confirmed head-office address (also shown in HTML) */
+  address: "177, Pucca Bagh, Hapur, Uttar Pradesh – 245101, India",
+
+  /* Domain only — no https:// */
   domain: "[WEBSITE DOMAIN]",
 
   /* Optional SEO overrides (leave blank "" to keep HTML <head> values) */
   metaDescription: "",
 
-  /* Footer */
   copyrightYear: "2026"
 };

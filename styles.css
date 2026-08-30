@@ -388,18 +388,11 @@ p {
   opacity: 0.55;
 }
 
-.hero-rule {
-  width: 4rem;
-  height: 1px;
-  background: var(--color-border-strong);
-  margin: var(--space-lg) auto;
-}
-
-.hero-lead {
-  margin: 0 auto var(--space-xl);
-  color: var(--color-muted);
-  font-size: 1.0625rem;
-  text-align: left;
+.hero-positioning {
+  margin: var(--space-md) auto var(--space-xl);
+  max-width: 36rem;
+  font-size: 1.05rem;
+  color: var(--color-secondary);
 }
 
 .hero-actions {
@@ -410,21 +403,63 @@ p {
 }
 
 /* ------------------------------------------------------------
-   7. Philosophy
+   7. About / Philosophy
    ------------------------------------------------------------ */
-.philosophy {
+.about {
   padding: var(--space-2xl) 0;
   background: var(--color-surface);
   border-bottom: 1px solid var(--color-border);
   content-visibility: auto;
-  contain-intrinsic-size: 1px 640px;
+  contain-intrinsic-size: 1px 720px;
+}
+
+.about-credentials {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-md);
+  margin-bottom: var(--space-xl);
+  padding: var(--space-lg) 0;
+  border-top: 1px solid var(--color-border-strong);
+  border-bottom: 1px solid var(--color-border-strong);
+}
+
+.credential {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.credential-label {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+.credential-value {
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  color: var(--color-primary);
+  letter-spacing: 0.02em;
+}
+
+.about-lead {
+  max-width: 55rem;
+  margin-bottom: var(--space-md);
+  color: var(--color-secondary);
+  font-size: 1.0625rem;
+}
+
+.about-lead-secondary {
+  margin-bottom: var(--space-xl);
+  color: var(--color-muted);
 }
 
 .philosophy-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--space-lg);
-  margin-bottom: var(--space-xl);
 }
 
 .principle {
@@ -440,14 +475,6 @@ p {
 .principle p {
   color: var(--color-muted);
   font-size: 0.975rem;
-}
-
-.philosophy-body {
-  max-width: 55rem;
-  color: var(--color-secondary);
-  font-size: 1.0625rem;
-  padding-top: var(--space-md);
-  border-top: 1px solid var(--color-border);
 }
 
 /* ------------------------------------------------------------
@@ -510,6 +537,34 @@ p {
   gap: var(--space-md);
 }
 
+.service-jump {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0 0 var(--space-xl);
+  padding-bottom: var(--space-md);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.service-jump a {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--color-secondary);
+  border: 1px solid var(--color-border-strong);
+  padding: 0.45rem 0.75rem;
+  transition: color var(--transition), border-color var(--transition), background-color var(--transition);
+}
+
+.service-jump a:hover,
+.service-jump a:focus-visible {
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+  background: var(--color-surface-alt);
+}
+
 .service-card {
   display: flex;
   flex-direction: column;
@@ -517,6 +572,7 @@ p {
   padding: var(--space-lg) var(--space-md);
   background: var(--color-background);
   transition: border-color var(--transition);
+  scroll-margin-top: 5.5rem;
 }
 
 .service-card:hover {
@@ -560,9 +616,17 @@ p {
   font-size: 1.05rem;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: var(--space-md);
+  margin-bottom: var(--space-sm);
   padding-bottom: var(--space-sm);
   border-bottom: 1px solid var(--color-border);
+}
+
+.service-blurb {
+  margin-bottom: var(--space-md);
+  font-size: 0.9rem;
+  color: var(--color-secondary);
+  line-height: 1.5;
+  max-width: none;
 }
 
 .service-list {
@@ -606,11 +670,51 @@ p {
   max-width: 48rem;
 }
 
+.contact-office {
+  margin-bottom: var(--space-xl);
+  padding-bottom: var(--space-lg);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.contact-office-name {
+  font-family: var(--font-serif);
+  font-size: 1.35rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 0.2rem;
+}
+
+.contact-office-role {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+  margin-bottom: var(--space-md);
+}
+
+.contact-address {
+  font-style: normal;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--color-text);
+  max-width: none;
+}
+
+.contact-office-note {
+  margin-top: var(--space-sm);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+}
+
 .contact-details {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--space-lg);
-  margin-bottom: var(--space-xl);
+  margin-bottom: var(--space-lg);
   padding: var(--space-lg) 0;
   border-top: 1px solid var(--color-border-strong);
   border-bottom: 1px solid var(--color-border-strong);
@@ -627,11 +731,18 @@ p {
 }
 
 .contact-item p,
-.contact-item a {
+.contact-item a,
+.contact-placeholder {
   font-size: 1rem;
   color: var(--color-text);
   text-decoration: none;
   word-break: break-word;
+  max-width: none;
+}
+
+.contact-placeholder {
+  color: var(--color-muted);
+  font-size: 0.9375rem;
 }
 
 .contact-item a:hover {
@@ -643,6 +754,17 @@ p {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-sm);
+}
+
+.contact-pending-note {
+  font-size: 0.875rem;
+  color: var(--color-muted);
+  max-width: none;
+}
+
+.contact-pending-note[hidden],
+.contact-actions[hidden] {
+  display: none !important;
 }
 
 /* ------------------------------------------------------------
@@ -690,6 +812,40 @@ p {
 .footer-founded {
   font-size: 0.875rem;
   color: var(--color-footer-muted);
+}
+
+.footer-reg {
+  margin-top: var(--space-sm);
+  font-size: 0.8125rem;
+  color: var(--color-footer-muted);
+  letter-spacing: 0.02em;
+}
+
+.footer-office-label {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-footer-accent);
+  margin-bottom: 0.5rem;
+}
+
+.footer-meta {
+  margin-top: 0.65rem;
+  color: var(--color-footer-muted);
+  font-size: 0.875rem;
+}
+
+.footer-bottom-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem 1.5rem;
+}
+
+.footer-location {
+  color: var(--color-footer-muted);
+  font-size: 0.8125rem;
 }
 
 .footer-nav ul {
@@ -760,7 +916,8 @@ p {
 }
 
 @media (max-width: 900px) {
-  .philosophy-grid {
+  .philosophy-grid,
+  .about-credentials {
     grid-template-columns: 1fr;
     gap: var(--space-md);
   }
@@ -837,10 +994,6 @@ p {
     display: none;
   }
 
-  .hero-lead {
-    text-align: left;
-  }
-
   .hero-actions {
     flex-direction: column;
   }
@@ -865,6 +1018,12 @@ p {
 
   .contact-actions .btn {
     width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-bottom-inner {
+    flex-direction: column;
   }
 }
 

@@ -21,20 +21,35 @@
       var value = cfg[key];
       if (isFilled(value) || (key === "copyrightYear" && value)) {
         el.textContent = value;
+        el.classList.remove("contact-placeholder");
       }
     });
 
-    document.querySelectorAll('[data-config="phone-link"]').forEach(function (el) {
-      if (isFilled(cfg.phone)) {
-        el.setAttribute("href", "tel:" + cfg.phone.replace(/\s+/g, ""));
-      }
-    });
+    var actions = document.getElementById("contact-actions");
+    var pendingNote = document.getElementById("contact-pending-note");
+    var callBtn = document.getElementById("cta-call");
+    var emailBtn = document.getElementById("cta-email");
+    var showActions = false;
 
-    document.querySelectorAll('[data-config="email-link"]').forEach(function (el) {
-      if (isFilled(cfg.email)) {
-        el.setAttribute("href", "mailto:" + cfg.email);
-      }
-    });
+    if (callBtn && isFilled(cfg.phone)) {
+      callBtn.setAttribute("href", "tel:" + cfg.phone.replace(/\s+/g, ""));
+      callBtn.hidden = false;
+      showActions = true;
+    }
+
+    if (emailBtn && isFilled(cfg.email)) {
+      emailBtn.setAttribute("href", "mailto:" + cfg.email);
+      emailBtn.hidden = false;
+      showActions = true;
+    }
+
+    if (actions) {
+      actions.hidden = !showActions;
+      actions.classList.toggle("is-pending", !showActions);
+    }
+    if (pendingNote) {
+      pendingNote.hidden = showActions;
+    }
 
     if (isFilled(cfg.domain)) {
       var origin = "https://" + cfg.domain.replace(/^https?:\/\//, "").replace(/\/$/, "");
@@ -116,7 +131,7 @@
   updateHeader();
 
   /* ---------- Active navigation state ---------- */
-  var sections = ["home", "services", "contact"]
+  var sections = ["home", "about", "services", "contact"]
     .map(function (id) {
       return document.getElementById(id);
     })

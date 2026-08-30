@@ -1,15 +1,6 @@
 # =============================================================================
 # V Manglik & Co. — Website Content (editable)
-# =============================================================================
-# HOW TO USE
-# 1. Fill in the values below (especially contact.*).
-# 2. Copy contact values into site-config.js (live site reads that file).
-# 3. For longer copy / services, update the matching sections in index.html
-#    (see content/CONTENT.md for a checklist).
-#
-# This YAML file is an editor-friendly source of truth. It is NOT loaded by
-# the browser at runtime (keeps the site instant — no YAML parser, no fetch).
-# You do not need to upload this folder for the website to work.
+# Classification: CONFIRMED | VERIFY | NOT AVAILABLE
 # =============================================================================
 
 firm:
@@ -17,25 +8,39 @@ firm:
   profession: "Chartered Accountants"
   tagline: "Precision | Integrity | Growth"
   founded: 2000
+  # CONFIRMED
+  icai_registration: "008674C"
+  head_office_city: "Hapur"
+  head_office_state: "Uttar Pradesh"
+  head_office_country: "India"
 
-# --- REPLACE THESE BEFORE GO-LIVE ---
 contact:
-  phone: "[PHONE NUMBER]"
-  email: "[EMAIL ADDRESS]"
-  address: "[OFFICE ADDRESS]"
-  # Domain only, no https://  e.g. www.example.com
+  # CONFIRMED
+  address: "177, Pucca Bagh, Hapur, Uttar Pradesh – 245101, India"
+  # VERIFY BEFORE PUBLISHING — researched listing seen as +91 1222 312151
+  phone: "[PHONE NUMBER — VERIFY]"
+  # NOT AVAILABLE — do not invent
+  email: "[OFFICIAL EMAIL ADDRESS]"
   website_domain: "[WEBSITE DOMAIN]"
+  # VERIFY — conflicting public listings; do not publish
+  office_hours: "[OFFICE HOURS — VERIFY]"
+  # VERIFY CURRENT NOIDA OFFICE STATUS — do not publish until confirmed
+  noida_address: "H-6, Sector-11, Noida – 201301"
+  google_maps_url: "[GOOGLE MAPS URL — VERIFY]"
 
 seo:
-  title: "V Manglik & Co. | Chartered Accountants"
+  title: "V Manglik & Co. | Chartered Accountants in Hapur"
   description: >-
-    V Manglik & Co. is a Chartered Accountant firm providing taxation, GST,
-    audit, compliance, registration and representation services.
-  # theme-color should match theme.css --color-primary when you change themes
+    V Manglik & Co. is a Chartered Accountant firm established in 2000,
+    providing taxation, GST, audit, compliance, representation and business
+    registration services from Hapur, Uttar Pradesh.
   theme_color: "#1a1a1a"
 
 hero:
-  eyebrow: "Founded in 2000"
+  eyebrow: "Established in 2000 · Hapur, Uttar Pradesh"
+  positioning: >-
+    Professional support across taxation, GST, audit, compliance and
+    business-related requirements.
   primary_cta: "Explore Our Services"
   secondary_cta: "Contact Us"
   lead: >-
@@ -44,63 +49,67 @@ hero:
     are committed to delivering accurate, ethical, and practical financial
     solutions that empower businesses and individuals to make informed
     decisions with confidence.
+  focus_areas:
+    - Taxation
+    - GST
+    - Audit
+    - Compliance
+    - Business Services
+    - Representation
+    - Registrations
 
-philosophy:
-  eyebrow: "Our Philosophy"
-  heading: "Trust Built on Transparency"
-  subheading: "Strengthened by Professionalism"
+about:
+  eyebrow: "About the Firm"
+  heading: "Our Approach"
+  subheading: "Trust built on transparency. Strengthened by professionalism."
+  lead: >-
+    V Manglik & Co. is a Chartered Accountant firm established in 2000. We
+    serve entrepreneurs, growing businesses, corporate organisations and
+    individual taxpayers with services designed to simplify compliance,
+    support informed decision-making, and help strengthen financial
+    performance.
   principles:
     - title: "Accuracy & Ethics"
-      text: >-
-        We deliver accurate, ethical financial solutions grounded in
-        professional standards.
+      text: "Accurate, ethical financial solutions grounded in professional standards."
     - title: "Practical Guidance"
-      text: >-
-        Our advice is practical and designed to support clear, confident
-        decision-making.
+      text: "Clear, practical advice that supports confident financial decisions."
     - title: "Sustainable Growth"
-      text: >-
-        We help simplify compliance, optimize financial performance, and
-        support lasting growth.
-  body: >-
-    Whether you're an entrepreneur, a growing business, a corporate
-    organization, or an individual taxpayer, our team provides tailored
-    services designed to simplify compliance, optimize financial
-    performance, and support sustainable growth.
+      text: "Support for compliance, financial performance and long-term growth."
+
+# DO NOT publish leadership until confirmed by the firm
+# VERIFY CURRENT PARTNER DESIGNATION
+# Historical/public research noted CA Prashant Manglik (Audit | Business Advisory)
+# and CA Vishal Manglik listings in Hapur — roles not confirmed for website use.
+leadership:
+  publish: false
 
 audience:
   eyebrow: "Our Clients"
   heading: "Who We Serve"
   intro: >-
-    Tailored services for individuals and organisations seeking clear,
-    professional financial guidance.
+    Professional support for the audiences identified in our practice — from
+    individual taxpayers to corporate organisations, including startups and
+    MSMEs seeking registration and compliance assistance.
   items:
     - title: "Entrepreneurs"
-      text: >-
-        Practical support for founders building and structuring their
-        ventures with confidence.
+      text: "Practical support for founders building and structuring their ventures with confidence."
     - title: "Growing Businesses"
-      text: >-
-        Services designed to simplify compliance and strengthen financial
-        performance as you scale.
+      text: "Services designed to simplify compliance and strengthen financial performance as you scale."
     - title: "Corporate Organizations"
-      text: >-
-        Professional advisory and assurance aligned with organisational
-        governance and reporting needs.
+      text: "Professional advisory and assurance aligned with organisational governance and reporting needs."
     - title: "Individual Taxpayers"
-      text: >-
-        Clear, ethical guidance to help individuals meet obligations and
-        make informed tax decisions.
+      text: "Clear, ethical guidance to help individuals meet obligations and make informed tax decisions."
 
 services:
   eyebrow: "What We Offer"
   heading: "Our Professional Services"
   intro: >-
-    Comprehensive chartered accountancy services spanning taxation,
-    compliance, audit, and registrations.
+    Professional support across taxation, GST, audit, compliance,
+    representation and business-related registrations.
   categories:
     - number: "01"
       title: "Direct Taxation"
+      description: "Support for individual and business taxation, TDS compliance, capital gains and related tax matters."
       items:
         - "Income Tax Return (ITR) Filing"
         - "Litigation Support"
@@ -108,48 +117,48 @@ services:
         - "NRI Taxation"
         - "TDS Compliance & Returns"
         - "Lower Deduction Certificates for TDS / TCS"
-
     - number: "02"
       title: "Goods & Services Tax (GST) Services"
+      description: "GST registration, return filing, notices, litigation support and refund applications."
       items:
         - "GST Registration"
         - "GST Return Filing"
         - "GST Notices & Litigation Support"
         - "GST Refund Application"
-
     - number: "03"
       title: "Audit & Assurance"
+      description: "Professional audit services including statutory, tax and bank audits."
       items:
         - "Statutory Audit"
         - "Tax Audit (Section 44AB)"
         - "Bank Audit"
-
     - number: "04"
       title: "Company & LLP Services"
+      description: "Business formation and ROC compliance support for companies, LLPs and partnership firms."
       items:
         - "Private Limited Company Registration"
         - "LLP Registration"
         - "OPC Registration"
         - "Partnership Firm Registration"
         - "ROC Annual Compliance"
-
     - number: "05"
       title: "Startup & MSME Services"
+      description: "Registration support for startups and MSMEs under applicable schemes."
       items:
         - "Startup India Registration"
         - "MSME/Udyam Registration"
-
     - number: "06"
       title: "Litigation & Representation"
+      description: "Assistance with tax and GST appeals, assessments, notices and representation before authorities."
       items:
         - "Income Tax Appeals"
         - "GST Appeals"
         - "Representation Before Tax Authorities"
         - "Assessment Proceedings"
         - "Reply to Notices"
-
     - number: "07"
       title: "Other Registrations"
+      description: "Support for common registrations and related documentation requirements."
       items:
         - "PAN & TAN"
         - "DSC (Digital Signature Certificate)"
@@ -161,11 +170,9 @@ contact_section:
   eyebrow: "Get in Touch"
   heading: "Contact Us"
   intro: >-
-    We welcome enquiries from individuals and organisations seeking
-    professional chartered accountancy services. Reach out to discuss how
-    we may assist you.
-  call_cta: "Call Us"
-  email_cta: "Email Us"
+    Enquiries are welcome from individuals and organisations seeking
+    professional chartered accountancy services. Visit or write to our head
+    office in Hapur.
 
 footer:
   copyright_year: 2026
@@ -174,6 +181,8 @@ footer:
 navigation:
   - label: "Home"
     href: "#home"
+  - label: "About"
+    href: "#about"
   - label: "Services"
     href: "#services"
   - label: "Contact Us"

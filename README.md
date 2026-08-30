@@ -64,17 +64,20 @@ Full guide: **[EDITING.md](EDITING.md)**
 ## Updating Contact Information
 
 1. Open **`site-config.js`**
-2. Replace:
+2. Replace verified values only:
 
 ```js
-phone: "[PHONE NUMBER]",
-email: "[EMAIL ADDRESS]",
-address: "[OFFICE ADDRESS]",
-domain: "[WEBSITE DOMAIN]",
+phone: "+91-XXXXXXXXXX",          // VERIFY before publishing
+email: "office@example.com",      // official email only
+address: "177, Pucca Bagh, Hapur, Uttar Pradesh – 245101, India",
+domain: "www.example.com",
 ```
 
-3. Keep `content/content.yaml` in sync for your records
-4. Update `robots.txt` and `sitemap.xml` domain placeholders once before go-live
+Phone and email placeholders do **not** create live `tel:` / `mailto:` links until values no longer start with `[`.
+
+Also keep `content/content.yaml` in sync (or use `_internal/update_contact.py`).
+
+Before go-live, update `robots.txt` and `sitemap.xml` domain placeholders.
 
 ## Tuning the CSS theme
 
