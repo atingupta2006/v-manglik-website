@@ -4,7 +4,7 @@
  * =============================================================================
  * Confirmed by firm (Aug 2026):
  * - Contact person: CA Prashant Manglik
- * - Phone: +91 94127 15334
+ * - Phone: 01222312151
  * - Email: pm@manglikca.in
  * - Offices: Hapur (head) + Noida
  * - Hours: Mon–Sat 10:00–18:00
@@ -17,7 +17,7 @@
 window.SITE_CONFIG = {
   contactPerson: "CA Prashant Manglik",
 
-  phone: "+91 94127 15334",
+  phone: "01222312151",
 
   email: "pm@manglikca.in",
 

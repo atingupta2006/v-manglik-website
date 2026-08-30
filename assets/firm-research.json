@@ -16,7 +16,6 @@
     "confidence_policy": "Do not publish web-reported or inferred information as confirmed fact without business verification.",
     "asset_note": "This file is the maintained research + publish-decision record. Website HTML remains the live source of truth for displayed copy."
   },
-
   "publish_decisions": {
     "decided_date": "2026-08-30",
     "hosting": {
@@ -30,21 +29,19 @@
       "Office hours Monday–Saturday 10:00–18:00",
       "Public listing rating 5.0 (21 reviews)",
       "Anonymous testimonial themes tied to public listings",
-      "Firm phone +91 94127 15334",
+      "Primary phone 01222312151",
       "Firm email pm@manglikca.in",
       "Team professionals Harsh Agarwal, Palak Agarwal, Akshita Goel (conservative wording)"
     ],
     "still_do_not_publish": [
       "Vishal Manglik as founder/partner/managing partner/owner",
       "Prashant Manglik as current Partner / Managing Partner",
-      "Research phone +91 1222 312151 (superseded by firm phone)",
       "Vishal Manglik private-company directorships on the CA firm site",
       "Anurag Bhardwaj (internal research only until role confirmed)",
       "Awards, client logos, client counts, pan-India or international claims",
       "25+ years / longest-running firm claims"
     ]
   },
-
   "firm": {
     "official_name": {
       "value": "V Manglik & Co.",
@@ -82,7 +79,6 @@
       "confidence": "very_high"
     }
   },
-
   "head_office": {
     "address": "177, Pucca Bagh, Hapur, Uttar Pradesh 245101, India",
     "status": "strongly_confirmed",
@@ -96,22 +92,21 @@
     "recommended_website_usage": true,
     "website_publish": true
   },
-
   "contact": {
     "phone": {
       "firm_confirmed": {
-        "value": "+91 94127 15334",
+        "value": "01222312151",
         "status": "firm_supplied",
         "confidence": "very_high",
-        "website_publish": true
+        "website_publish": true,
+        "display_format": "01222312151",
+        "note": "Landline format requested for website display (equiv. +91 1222 312151)."
       },
-      "web_reported_listing": {
-        "value": "+91 1222 312151",
-        "status": "web_reported_superseded",
-        "confidence": "medium_high",
-        "source": "Structured business listing",
+      "mobile_alternate": {
+        "value": "+91 94127 15334",
+        "status": "previously_supplied",
         "website_publish": false,
-        "note": "Do not display; superseded by firm-supplied mobile."
+        "note": "Kept in research only; primary display is 01222312151."
       }
     },
     "email": {
@@ -145,7 +140,6 @@
       "website_publish": true
     }
   },
-
   "locations": {
     "head_office": {
       "city": "Hapur",
@@ -164,7 +158,6 @@
       "note": "Firm/user approved publishing Noida as a current office (2026-08-30)."
     }
   },
-
   "professional_people": {
     "prashant_manglik": {
       "name": "CA Prashant Manglik",
@@ -174,7 +167,10 @@
       "historical_role": "Partner",
       "current_role_display": "Chartered Accountant — Audit | Business Advisory",
       "current_role_note": "Do not publish Partner / Managing Partner without fresh confirmation.",
-      "professional_areas_found": ["Audit", "Business Advisory"],
+      "professional_areas_found": [
+        "Audit",
+        "Business Advisory"
+      ],
       "current_professional_city": "Noida, Uttar Pradesh, India",
       "website_publish": true,
       "website_safe_wording": "CA Prashant Manglik"
@@ -235,7 +231,6 @@
       "note": "Internal research only until role is confirmed."
     }
   },
-
   "service_portfolio": {
     "source_priority": "Firm supplied document is authoritative",
     "categories": {
@@ -285,7 +280,6 @@
       ]
     }
   },
-
   "professional_expertise_signals": {
     "strongest_supported_areas": [
       "Taxation",
@@ -306,7 +300,6 @@
       "Current professional activity"
     ]
   },
-
   "recent_professional_activity": {
     "themes_identified": [
       "Tax planning",
@@ -330,7 +323,6 @@
     "website_publish_as": "Advisory focus themes (not claimed exclusive specializations)",
     "do_not_overstate": "These themes demonstrate public professional activity but do not by themselves prove specialization in every listed area."
   },
-
   "historical_presence": {
     "public_evidence_year": 2004,
     "finding": "V. Manglik & Co., Chartered Accountants was publicly documented in Hapur",
@@ -343,7 +335,6 @@
       "Longest-running CA firm in Hapur"
     ]
   },
-
   "local_presence": {
     "current_business_listing": {
       "name": "V Manglik & Co. (Chartered Accountants)",
@@ -360,7 +351,6 @@
       "attribution": "Public business listings"
     }
   },
-
   "brand_positioning": {
     "recommended_primary_positioning": "Professional Chartered Accountant services across taxation, GST, audit, compliance, business services and representation.",
     "recommended_short_positioning": "Taxation | GST | Audit | Compliance | Advisory",
@@ -375,7 +365,6 @@
       "Practical financial solutions"
     ]
   },
-
   "target_audiences": {
     "confirmed_from_firm_material": [
       "Entrepreneurs",
@@ -391,7 +380,6 @@
       "Individuals requiring tax support"
     ]
   },
-
   "website_recommendation": {
     "recommended_sections": [
       "Home",
@@ -418,7 +406,6 @@
       "Named client case studies without permission"
     ]
   },
-
   "website_content_priorities": {
     "priority_1": [
       "V Manglik & Co.",
@@ -441,13 +428,12 @@
       "CA Vishal Manglik",
       "CA Prashant Manglik",
       "Professional team",
-      "Phone +91 94127 15334",
+      "Phone 01222312151",
       "Email pm@manglikca.in",
       "Office hours",
       "Rating 5.0 / 21 reviews"
     ]
   },
-
   "schema_suggestions": {
     "@type": "AccountingService",
     "include": [
