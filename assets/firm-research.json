@@ -34,8 +34,8 @@
       "Google Maps Share URL",
       "Google rating 5.0 / 21 labelled as Google",
       "Hapur addresses 177 and 81 Pucca Bagh",
-      "CA Vishal Manglik as Owner (main owner)",
-      "CA Prashant Manglik as Director"
+      "CA Vishal Manglik as Managing Partner",
+      "CA Prashant Manglik as Partner"
     ],
     "still_do_not_publish": [
       "Vishal Manglik private-company directorships on the CA firm site",
@@ -1137,15 +1137,29 @@
   },
   "confirmed_titles": {
     "CA Vishal Manglik": {
-      "title": "Owner",
+      "title": "Managing Partner",
       "status": "firm_confirmed",
-      "note": "main owner",
+      "note": "Mapped from 'main owner' to ICAI CA-firm terminology",
       "website_publish": true
     },
     "CA Prashant Manglik": {
-      "title": "Director",
+      "title": "Partner",
       "status": "firm_confirmed",
       "website_publish": true
     }
+  },
+  "terminology_policy": {
+    "use": [
+      "Partner",
+      "Managing Partner",
+      "Proprietor"
+    ],
+    "avoid_on_ca_firm_site": [
+      "Owner",
+      "Director",
+      "Founder",
+      "CEO"
+    ],
+    "reason": "Chartered Accountant firms under ICAI are typically partnerships/LLPs/proprietorships; company-style titles are inappropriate."
   }
 }

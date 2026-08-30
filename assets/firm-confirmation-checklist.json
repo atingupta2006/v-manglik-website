@@ -7,18 +7,20 @@
       "item": "8-12 original photos",
       "recommendation": "REQUEST_FROM_FIRM",
       "website_status": "FIRST_OFFICE_INTERIOR_PUBLISHED_MORE_NEEDED",
-      "published": ["assets/images/office-interior.jpg"]
+      "published": [
+        "assets/images/office-interior.jpg"
+      ]
     },
     {
       "item": "CA Vishal Manglik title",
-      "firm_reply": "main owner",
-      "published_title": "Owner",
+      "firm_reply": "main owner -> Managing Partner (CA firm terminology)",
+      "published_title": "Managing Partner",
       "website_status": "PUBLISHED"
     },
     {
       "item": "CA Prashant Manglik title",
-      "firm_reply": "Director (Vishal is main owner)",
-      "published_title": "Director",
+      "firm_reply": "Partner (CA firm terminology)",
+      "published_title": "Partner",
       "website_status": "PUBLISHED"
     },
     {
@@ -38,12 +40,21 @@
     },
     {
       "item": "Both Hapur addresses",
-      "addresses": ["177, Pucca Bagh", "81, Pucca Bagh"],
+      "addresses": [
+        "177, Pucca Bagh",
+        "81, Pucca Bagh"
+      ],
       "website_status": "PUBLISHED"
+    },
+    {
+      "item": "Owner / Director terminology",
+      "website_status": "REMOVED",
+      "note": "Not appropriate for Chartered Accountant firms"
     }
   ],
   "blocking_for_100_percent": [
     "More original photographs (exterior, reception, headshots, team)",
     "Optional: confirm Sunday / extended evening hours if they should appear"
-  ]
+  ],
+  "terminology_note": "ICAI CA firms use Partner / Managing Partner (or Proprietor), not Owner or Director."
 }

@@ -1,7 +1,7 @@
 ## Applied from firm reply (2026-08-30)
 
-- CA Vishal Manglik: **Owner** (main owner)
-- CA Prashant Manglik: **Director**
+- CA Vishal Manglik: **Managing Partner** (ICAI CA-firm terminology for principal)
+- CA Prashant Manglik: **Partner**
 - Maps Share URL published
 - Google rating 5.0 / 21 labelled as Google
 - Both Hapur addresses: **177** and **81**, Pucca Bagh
