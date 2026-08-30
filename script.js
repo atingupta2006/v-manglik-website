@@ -148,7 +148,7 @@
   updateHeader();
 
   /* ---------- Active navigation state ---------- */
-  var sections = ["home", "about", "services", "contact"]
+  var sections = ["home", "about", "professionals", "services", "resources", "contact"]
     .map(function (id) {
       return document.getElementById(id);
     })

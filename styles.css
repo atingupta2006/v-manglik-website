@@ -1169,6 +1169,183 @@ p {
   max-width: 40rem;
 }
 
+.trust-rating-action {
+  margin-top: 0.65rem;
+}
+
+.trust-rating-action a {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.trust-rating-action a:hover {
+  text-decoration: underline;
+}
+
+.professional-link {
+  margin-top: 0.55rem !important;
+  font-size: 0.8125rem !important;
+}
+
+.professional-link a {
+  color: var(--color-accent);
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.professional-link a:hover {
+  text-decoration: underline;
+}
+
+/* ------------------------------------------------------------
+   10c. Useful Resources
+   ------------------------------------------------------------ */
+.resources {
+  padding: var(--space-2xl) 0;
+  background: var(--color-background);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.resources-grid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.85rem;
+  margin: 0;
+  padding: 0;
+}
+
+.resources-grid a {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  min-height: 100%;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--color-border-strong);
+  background: var(--color-surface);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color var(--transition), background-color var(--transition);
+}
+
+.resources-grid a:hover {
+  border-color: var(--color-accent);
+  background: var(--color-surface-alt);
+  color: inherit;
+}
+
+.resource-name {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.resource-desc {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--color-muted);
+}
+
+.resources-more {
+  margin-top: var(--space-lg);
+  font-size: 0.875rem;
+  color: var(--color-muted);
+  max-width: none;
+}
+
+.resources-more a {
+  color: var(--color-accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.resources-more a:hover {
+  text-decoration: underline;
+}
+
+.resources-group-title {
+  margin: var(--space-xl) 0 var(--space-md);
+  font-size: 1.15rem;
+}
+
+.resources-page .section-header h1 {
+  font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.subpage {
+  padding-top: var(--space-lg);
+}
+
+.subpage-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.subpage-nav {
+  display: flex;
+}
+
+.disclaimer-page {
+  padding: var(--space-2xl) 0;
+}
+
+.disclaimer-inner {
+  max-width: 42rem;
+}
+
+.disclaimer-inner h1 {
+  text-transform: none;
+  letter-spacing: 0.02em;
+  margin-bottom: var(--space-md);
+}
+
+.disclaimer-rule {
+  width: 3rem;
+  height: 2px;
+  background: var(--color-accent);
+  margin-bottom: var(--space-lg);
+}
+
+.disclaimer-inner p {
+  margin-bottom: var(--space-md);
+  max-width: none;
+}
+
+.footer-authority ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-authority a {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--color-footer-text);
+}
+
+.footer-authority a:hover {
+  color: var(--color-footer-accent);
+}
+
+.footer-inner-simple {
+  grid-template-columns: 1.2fr 1fr;
+}
+
 /* ------------------------------------------------------------
    10b. FAQ
    ------------------------------------------------------------ */
@@ -1241,7 +1418,7 @@ p {
 
 .footer-inner {
   display: grid;
-  grid-template-columns: 1.4fr 1fr 1fr;
+  grid-template-columns: 1.3fr 0.9fr 1.1fr 0.9fr;
   gap: var(--space-lg);
   padding-bottom: var(--space-xl);
 }
@@ -1375,7 +1552,8 @@ html {
   .advisory-list,
   .expertise-list,
   .contact-details-wide,
-  .testimonials-grid {
+  .testimonials-grid,
+  .resources-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -1605,6 +1783,7 @@ html {
   .services-grid,
   .expertise-list,
   .advisory-list,
+  .resources-grid,
   .philosophy-grid,
   .about-credentials,
   .process-steps,

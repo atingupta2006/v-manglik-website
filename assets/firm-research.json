@@ -349,6 +349,12 @@
       "website_publish": true,
       "website_wording": "5.0 public business listing rating based on 21 reviews",
       "attribution": "Public business listings"
+    },
+    "justdial": {
+      "url": "https://www.justdial.com/Hapur/V-Manglik-Co-Pucca-Bagh/9999PX122-X122-140505222559-X5E2_BZDET",
+      "rating": 5.0,
+      "review_count": 21,
+      "website_usage": "Secondary attribution only"
     }
   },
   "brand_positioning": {
@@ -520,5 +526,263 @@
       "Optional WhatsApp Business number",
       "Optional official social profile URLs for schema sameAs"
     ]
+  },
+  "website_references": {
+    "firm_identity": [
+      {
+        "name": "ICAI",
+        "type": "official_professional_authority",
+        "url": "https://www.icai.org/",
+        "purpose": "Professional authority/reference for Chartered Accountants",
+        "website_usage": "Footer credibility link",
+        "status": "recommended"
+      },
+      {
+        "name": "ICAI Firm Registration Reference",
+        "type": "official_record",
+        "firm_name": "V Manglik & Co.",
+        "firm_registration_number": "008674C",
+        "purpose": "Verify professional firm identity",
+        "website_usage": "Display ICAI Firm Registration No. 008674C in About/Footer",
+        "status": "confirmed"
+      }
+    ],
+    "professional_profiles": [
+      {
+        "name": "CA Prashant Manglik",
+        "type": "linkedin_profile",
+        "url": "https://in.linkedin.com/in/ca-prashant-manglik",
+        "association": "V Manglik & Co.",
+        "professional_areas_found": [
+          "Audit",
+          "Business Advisory"
+        ],
+        "website_usage": "Potential leadership/professional profile",
+        "status": "strong_public_evidence",
+        "website_publish": true
+      },
+      {
+        "name": "CA Harsh Agarwal",
+        "type": "linkedin_profile",
+        "url": "https://in.linkedin.com/in/harshagarwal192",
+        "association": "V Manglik & Co.",
+        "professional_areas_found": [
+          "Auditing",
+          "Accounting",
+          "Taxation"
+        ],
+        "website_usage": "Potential team/professional expertise section",
+        "status": "public_professional_profile",
+        "website_publish": true
+      },
+      {
+        "name": "CA Palak Agarwal",
+        "type": "linkedin_profile",
+        "url": "https://in.linkedin.com/in/capalakagarwal18",
+        "association": "V Manglik & Co.",
+        "professional_status": "Chartered Accountant",
+        "website_usage": "Potential team section",
+        "status": "public_professional_profile",
+        "website_publish": true
+      },
+      {
+        "name": "Priya Manglik",
+        "type": "linkedin_profile",
+        "url": "https://in.linkedin.com/in/priya-manglik-",
+        "association": "V Manglik & Co.",
+        "professional_activity_topics": [
+          "Tax planning",
+          "TDS",
+          "TCS",
+          "Cash-flow management",
+          "Business compliance",
+          "Tax refunds",
+          "Income-tax rectification",
+          "CPGRAMS escalation"
+        ],
+        "website_usage": "Team / tax & compliance focus",
+        "status": "public_professional_activity",
+        "website_publish": true
+      },
+      {
+        "name": "Akshita Goel",
+        "type": "linkedin_profile",
+        "url": "https://in.linkedin.com/in/akshita-goel-69a006267",
+        "association": "V. Manglik and Co.",
+        "professional_background": [
+          "B.Com",
+          "Semi-qualified Chartered Accountant",
+          "Articleship experience"
+        ],
+        "website_usage": "Potential team section",
+        "status": "public_professional_profile",
+        "website_publish": true
+      }
+    ],
+    "location_and_business_listings": [
+      {
+        "name": "V Manglik & Co. (Chartered Accountants)",
+        "type": "business_listing",
+        "url": "https://www.justdial.com/Hapur/V-Manglik-Co-Pucca-Bagh/9999PX122-X122-140505222559-X5E2_BZDET",
+        "address": "177, Pucca Bagh, Mani Pakka Bagh, Hapur, Uttar Pradesh 245101, India",
+        "category": "Chartered Accountant",
+        "services_or_keywords_found": [
+          "Income Tax",
+          "GST",
+          "TDS",
+          "GST Refund"
+        ],
+        "rating_found": "5.0",
+        "review_count_found": 21,
+        "website_usage": "Secondary rating attribution / location verification",
+        "status": "third_party",
+        "production_recommendation": "Do not present directory information as official firm information"
+      }
+    ],
+    "historical_references": [
+      {
+        "name": "Hapur-Pilkhuwa Development Authority Historical Record",
+        "type": "public_authority_document",
+        "url": "https://hpdaonline.in/pdf/bm/13.A1.pdf",
+        "date_in_record": "2004-10-01",
+        "firm_name_found": "V. MANGLIK & Co., Chartered Accountants",
+        "person_found": "Prashant Manglik",
+        "role_found": "Partner",
+        "location_found": "Hapur",
+        "website_usage": "Historical credibility / internal verification",
+        "status": "strong_historical_evidence",
+        "recommended_public_wording": "Established in 2000",
+        "website_publish_link": false,
+        "avoid": [
+          "25+ years of excellence",
+          "Longest-running CA firm in Hapur",
+          "Leading CA firm"
+        ]
+      }
+    ],
+    "government_and_authoritative_resources": [
+      {
+        "name": "Income Tax Department",
+        "url": "https://www.incometax.gov.in/",
+        "website_usage": "Useful Resources section"
+      },
+      {
+        "name": "Goods and Services Tax Portal",
+        "url": "https://www.gst.gov.in/",
+        "website_usage": "Useful Resources section"
+      },
+      {
+        "name": "Ministry of Corporate Affairs",
+        "url": "https://www.mca.gov.in/",
+        "website_usage": "Useful Resources section"
+      },
+      {
+        "name": "Startup India",
+        "url": "https://www.startupindia.gov.in/",
+        "website_usage": "Useful Resources section"
+      },
+      {
+        "name": "Udyam Registration",
+        "url": "https://udyamregistration.gov.in/",
+        "website_usage": "Useful Resources section"
+      },
+      {
+        "name": "Directorate General of Foreign Trade",
+        "url": "https://www.dgft.gov.in/",
+        "website_usage": "Useful Resources section"
+      }
+    ],
+    "potential_future_links": [
+      {
+        "name": "Official Google Business Profile",
+        "url": null,
+        "status": "needs_firm_confirmation",
+        "priority": "high"
+      },
+      {
+        "name": "Official LinkedIn Company Page",
+        "url": null,
+        "status": "needs_firm_confirmation",
+        "priority": "high"
+      },
+      {
+        "name": "Official Firm Email",
+        "url": null,
+        "note": "Superseded on live site by firm-supplied pm@manglikca.in",
+        "status": "resolved_on_live_site"
+      },
+      {
+        "name": "Official Phone",
+        "value_found_publicly": "+91 1222 312151",
+        "note": "Live site displays 01222312151 (same landline) per firm/user decision",
+        "status": "resolved_on_live_site"
+      },
+      {
+        "name": "Official Google Maps Location",
+        "url": null,
+        "status": "needs_firm_confirmation",
+        "priority": "high",
+        "interim": "Address search Maps links published for Hapur and Noida"
+      },
+      {
+        "name": "Official Domain",
+        "url": null,
+        "note": "Live on GitHub Pages; no manglikca.in forward unless re-requested",
+        "status": "github_pages_live"
+      }
+    ]
+  },
+  "recommended_website_links": {
+    "main_navigation": [
+      {
+        "label": "Home",
+        "target": "#home"
+      },
+      {
+        "label": "About",
+        "target": "#about"
+      },
+      {
+        "label": "Services",
+        "target": "#services"
+      },
+      {
+        "label": "Resources",
+        "target": "#resources"
+      },
+      {
+        "label": "Contact",
+        "target": "#contact"
+      }
+    ],
+    "footer": [
+      {
+        "label": "ICAI",
+        "url": "https://www.icai.org/"
+      },
+      {
+        "label": "Income Tax Department",
+        "url": "https://www.incometax.gov.in/"
+      },
+      {
+        "label": "GST Portal",
+        "url": "https://www.gst.gov.in/"
+      },
+      {
+        "label": "MCA",
+        "url": "https://www.mca.gov.in/"
+      }
+    ]
+  },
+  "recommended_external_link_policy": {
+    "official_authority_links": "Can be published",
+    "government_resource_links": "Can be published",
+    "individual_linkedin_profiles": "Published on team cards from this reference pack",
+    "business_directory_links": "Use only as secondary references, not as official firm links",
+    "historical_documents": "Prefer internal verification; do not clutter homepage",
+    "google_business_profile": "Publish after official firm confirmation",
+    "phone": "Live: 01222312151",
+    "email": "Live: pm@manglikca.in",
+    "domain": "Live: atingupta2006.github.io/v-manglik-website"
   }
 }
