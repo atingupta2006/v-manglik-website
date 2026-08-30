@@ -1106,32 +1106,35 @@
     "status": "current_business_data",
     "google_business_id": "ChIJTzpX9K6FDDkRachYv44z-aE",
     "google_place_id": "ChIJTzpX9K6FDDkRachYv44z-aE",
-    "google_maps_share_url": "https://www.google.com/maps/search/?api=1&query_place_id=ChIJTzpX9K6FDDkRachYv44z-aE",
+    "google_maps_share_url": "https://www.google.com/maps?q=28.7305,77.7838",
     "category": "Chartered Accountant",
     "hours_published": "Monday–Saturday, 10:00–18:00",
     "geo": {
       "latitude": 28.7305,
       "longitude": 77.7838
     },
-    "directions_url": "https://www.google.com/maps/dir/?api=1&destination=V+Manglik+%26+Co.+%28Chartered+Accountants%29%2C+177%2C+Pucca+Bagh%2C+Mani+Pakka+Bagh%2C+Hapur%2C+Uttar+Pradesh+245101%2C+India",
+    "directions_url": "https://www.google.com/maps/dir/?api=1&destination=28.7305,77.7838",
     "website_policy": {
       "publish_google_rating_as_google": true,
       "publish_both_hapur_addresses": true,
       "never_link_to_manglikca_in_website": true,
-      "prefer_place_id_maps_over_share_google": true
+      "prefer_place_id_maps_over_share_google": true,
+      "never_link_to_gbp_profile": true
     },
     "office_photo_received": {
       "file": "assets/images/office-interior.jpg",
       "webp": "assets/images/office-interior.webp",
       "website_status": "published_in_gallery"
     },
-    "google_ratings_url": "https://www.google.com/maps/place/?q=place_id:ChIJTzpX9K6FDDkRachYv44z-aE",
+    "google_ratings_url": null,
     "previous_maps_search_url": "https://maps.google.com/maps/search/81%2C%20PUCCA%20BAGH%2C%20HAPUR%20245101/@28.7305,77.7838,17z?hl=en",
     "share_google_url_provided_but_rejected": {
       "url": "https://share.google/3SrDn3DrbYkZXKJs1",
       "reason": "Redirects to http://www.manglikca.in/?from=@ — do not use on website",
       "website_publish": false
-    }
+    },
+    "maps_pin_url": "https://www.google.com/maps?q=28.7305,77.7838",
+    "redirect_note": "Google Business Profile website field points to manglikca.in. Any place_id / share.google / GBP deep link can send visitors there. Website therefore uses coordinate map pins only and shows Google rating as text."
   },
   "confirmed_titles": {
     "CA Prashant Manglik": {

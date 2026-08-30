@@ -9,7 +9,7 @@
  * - Offices: Hapur (177 & 81, Pucca Bagh) + Noida
  * - Hours: Mon–Sat 10:00–18:00
  * - WhatsApp: +91 80066 21510
- * - Google Maps via place_id (share.google avoided — redirects to manglikca.in)
+ * - Map links use lat/lng only (GBP website points to manglikca.in — do not open place_id profile)
  * - Google rating 5.0 / 21 published as Google
  *
  * Research asset: assets/firm-research.json
@@ -38,11 +38,11 @@ window.SITE_CONFIG = {
 
   mapsPlaceId: "ChIJTzpX9K6FDDkRachYv44z-aE",
 
-  mapsUrl: "https://www.google.com/maps/search/?api=1&query_place_id=ChIJTzpX9K6FDDkRachYv44z-aE",
+  mapsUrl: "https://www.google.com/maps?q=28.7305,77.7838",
 
-  googleRatingsUrl: "https://www.google.com/maps/place/?q=place_id:ChIJTzpX9K6FDDkRachYv44z-aE",
+  googleRatingsUrl: "",  /* rating shown as text only — GBP website redirects to manglikca.in */
 
-  mapsDirectionsUrl: "https://www.google.com/maps/dir/?api=1&destination=V+Manglik+%26+Co.+%28Chartered+Accountants%29%2C+177%2C+Pucca+Bagh%2C+Mani+Pakka+Bagh%2C+Hapur%2C+Uttar+Pradesh+245101%2C+India",
+  mapsDirectionsUrl: "https://www.google.com/maps/dir/?api=1&destination=28.7305,77.7838",
 
   geo: { lat: 28.7305, lng: 77.7838 },
 

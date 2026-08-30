@@ -1188,6 +1188,12 @@ p {
   max-width: 40rem;
 }
 
+.trust-rating-action-static {
+  margin-top: 0.65rem;
+  font-size: 0.8125rem;
+  color: var(--color-muted);
+}
+
 .trust-rating-action {
   margin-top: 0.65rem;
 }
