@@ -2,31 +2,27 @@
  * =============================================================================
  * SITE CONFIG — edit this file to update live contact / SEO values
  * =============================================================================
- * Keep in sync with content/content.yaml → contact + seo sections.
+ * Confirmed by firm (Aug 2026):
+ * - Contact person: Prashant Manglik
+ * - Phone: +91 94127 15334
+ * - Email: pm@manglikca.in
+ * - Domain: manglikca.in
  *
- * CONFIRMED address is also hard-coded in index.html (Head Office, Hapur).
- *
- * VERIFY BEFORE PUBLISHING:
- * - phone (researched listing seen publicly: +91 1222 312151 — unconfirmed)
- * - email (no reliable official address identified)
- * - domain
- *
- * After a value is verified, replace the placeholder below (do not keep "[").
- * Call/Email buttons activate only when values are non-placeholders.
+ * Do not invent partner/leadership titles unless the firm confirms designation.
  * =============================================================================
  */
 window.SITE_CONFIG = {
-  /* VERIFY OFFICIAL PHONE NUMBER BEFORE PRODUCTION */
-  phone: "[PHONE NUMBER — VERIFY]",
+  contactPerson: "Prashant Manglik",
 
-  /* Replace with official firm email before production */
-  email: "[OFFICIAL EMAIL ADDRESS]",
+  phone: "+91 94127 15334",
+
+  email: "pm@manglikca.in",
 
   /* Confirmed head-office address (also shown in HTML) */
   address: "177, Pucca Bagh, Hapur, Uttar Pradesh – 245101, India",
 
   /* Domain only — no https:// */
-  domain: "[WEBSITE DOMAIN]",
+  domain: "manglikca.in",
 
   /* Optional SEO overrides (leave blank "" to keep HTML <head> values) */
   metaDescription: "",

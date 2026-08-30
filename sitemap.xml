@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-  UPDATE BEFORE DEPLOYMENT:
-  Replace [WEBSITE DOMAIN] with your production domain (without https://)
-  Example: https://www.example.com/
--->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://[WEBSITE DOMAIN]/</loc>
+    <loc>https://manglikca.in/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>

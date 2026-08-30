@@ -25,6 +25,18 @@
       }
     });
 
+    document.querySelectorAll('[data-config="phone-link"]').forEach(function (el) {
+      if (isFilled(cfg.phone)) {
+        el.setAttribute("href", "tel:" + cfg.phone.replace(/\s+/g, ""));
+      }
+    });
+
+    document.querySelectorAll('[data-config="email-link"]').forEach(function (el) {
+      if (isFilled(cfg.email)) {
+        el.setAttribute("href", "mailto:" + cfg.email);
+      }
+    });
+
     var actions = document.getElementById("contact-actions");
     var pendingNote = document.getElementById("contact-pending-note");
     var callBtn = document.getElementById("cta-call");
@@ -35,12 +47,16 @@
       callBtn.setAttribute("href", "tel:" + cfg.phone.replace(/\s+/g, ""));
       callBtn.hidden = false;
       showActions = true;
+    } else if (callBtn) {
+      callBtn.hidden = true;
     }
 
     if (emailBtn && isFilled(cfg.email)) {
       emailBtn.setAttribute("href", "mailto:" + cfg.email);
       emailBtn.hidden = false;
       showActions = true;
+    } else if (emailBtn) {
+      emailBtn.hidden = true;
     }
 
     if (actions) {

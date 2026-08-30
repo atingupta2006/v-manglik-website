@@ -2,7 +2,4 @@
 User-agent: *
 Allow: /
 
-# UPDATE BEFORE DEPLOYMENT:
-# Replace [WEBSITE DOMAIN] with your production domain (without https://)
-# Example: Sitemap: https://www.example.com/sitemap.xml
-Sitemap: https://[WEBSITE DOMAIN]/sitemap.xml
+Sitemap: https://manglikca.in/sitemap.xml
