@@ -784,5 +784,157 @@
     "phone": "Live: 01222312151",
     "email": "Live: pm@manglikca.in",
     "domain": "Live: atingupta2006.github.io/v-manglik-website"
+  },
+  "media_research": {
+    "research_date": "2026-08-30",
+    "purpose": "Identify photographs, images, gallery material, professional profiles and other visual references suitable for the V Manglik & Co. website.",
+    "overall_conclusion": {
+      "public_office_photos_found": false,
+      "public_firm_gallery_found": false,
+      "public_team_gallery_found": false,
+      "official_firm_logo_found": "Provided directly by client",
+      "professional_profile_photos_found": true,
+      "professional_activity_visuals_found": true,
+      "recommended_action": "Use client-provided media wherever possible. Use external profile links as references rather than copying images without permission."
+    },
+    "confirmed_brand_asset": {
+      "asset": "V Manglik & Co. logo",
+      "source": "Client-provided logo",
+      "local_file": "assets/logo.png",
+      "website_usage": [
+        "Header logo",
+        "Hero branding",
+        "Favicon / apple-touch",
+        "Footer branding",
+        "OG image"
+      ],
+      "permission": "Client-provided asset; suitable for website use",
+      "priority": "critical"
+    },
+    "office_and_location_media": [
+      {
+        "reference": "V Manglik & Co. Hapur business listing",
+        "url": "https://www.justdial.com/Hapur/V-Manglik-Co-Pucca-Bagh/9999PX122-X122-140505222559-X5E2_BZDET",
+        "type": "business_listing",
+        "media_status": "Do not download/reuse listing images without permission",
+        "recommended_action": "Ask firm for official office photographs"
+      }
+    ],
+    "professional_profile_media": [
+      {
+        "person": "CA Prashant Manglik",
+        "profile_url": "https://in.linkedin.com/in/ca-prashant-manglik",
+        "image_reuse": "Do not copy LinkedIn profile photograph without permission",
+        "priority": "high"
+      },
+      {
+        "person": "CA Harsh Agarwal",
+        "profile_url": "https://in.linkedin.com/in/harshagarwal192",
+        "image_reuse": "Permission required",
+        "priority": "high"
+      },
+      {
+        "person": "CA Palak Agarwal",
+        "profile_url": "https://in.linkedin.com/in/capalakagarwal18",
+        "notable_media_context": "Public post about becoming a Chartered Accountant on 18 June 2026 and acknowledging V Manglik & Co.",
+        "image_reuse": "Permission required",
+        "priority": "high"
+      },
+      {
+        "person": "Kavya Agarwal",
+        "profile_url": "https://in.linkedin.com/in/kavya-agarwal-80006b319",
+        "association": "V. Manglik & Co.",
+        "image_reuse": "Permission required",
+        "priority": "medium"
+      },
+      {
+        "person": "Akshita Goel",
+        "profile_url": "https://in.linkedin.com/in/akshita-goel-69a006267",
+        "image_reuse": "Permission required",
+        "priority": "medium"
+      },
+      {
+        "person": "Priya Manglik",
+        "profile_url": "https://in.linkedin.com/in/priya-manglik-",
+        "image_reuse": "Permission required",
+        "priority": "medium"
+      }
+    ],
+    "historical_document_media": [
+      {
+        "name": "Hapur-Pilkhuwa Development Authority historical record",
+        "url": "https://hpdaonline.in/pdf/bm/13.A1.pdf",
+        "date": "2004-10-01",
+        "website_usage": "Historical credibility / linked reference only — not gallery imagery"
+      }
+    ],
+    "icai_reference_media": [
+      {
+        "name": "ICAI List of Firms 2023",
+        "url": "https://lof.icai.org/lof2023/LOFPDF/centralpart.pdf",
+        "firm_registration_number": "008674C",
+        "website_usage": "Professional verification / reference link only"
+      }
+    ],
+    "recommended_original_media_to_request": [
+      "Office exterior photograph",
+      "Office reception photograph",
+      "Office interior photograph",
+      "Partner/leadership professional photographs",
+      "Team group photograph",
+      "Team working photograph",
+      "Professional meeting photograph",
+      "Client meeting photograph",
+      "CA certificates/recognition photographs",
+      "Firm event photographs"
+    ],
+    "recommended_website_gallery": {
+      "gallery_name": "Our Practice",
+      "categories": [
+        "Our Office",
+        "Our Professionals",
+        "Professional Activities",
+        "Learning & Development"
+      ],
+      "initial_gallery_size": "6-10 images",
+      "avoid": [
+        "Generic stock photos",
+        "Copied LinkedIn graphics",
+        "Third-party directory images without permission"
+      ]
+    },
+    "stock_media_recommendation": {
+      "use_stock_images": false,
+      "reason": "Genuine firm/team/office photographs are more credible for a CA firm."
+    },
+    "image_licensing_policy": {
+      "client_provided_images": "Preferred",
+      "linkedin_profile_photos": "Do not download/reuse without permission",
+      "justdial_images": "Do not reuse without permission",
+      "government_documents": "Reference links only",
+      "stock_images": "Only with confirmed commercial license",
+      "google_images": "Do not copy from search results"
+    },
+    "recommended_media_folder": {
+      "path": "assets/images/",
+      "structure": [
+        "office-exterior.webp",
+        "office-reception.webp",
+        "office-interior.webp",
+        "team-group.webp",
+        "prashant-manglik.webp",
+        "harsh-agarwal.webp",
+        "palak-agarwal.webp",
+        "priya-manglik.webp",
+        "kavya-agarwal.webp"
+      ]
+    },
+    "website_publish_decisions": {
+      "copy_third_party_photos": false,
+      "show_gallery_placeholders_until_firm_photos": true,
+      "link_linkedin_profiles": true,
+      "link_icai_lof_pdf": true,
+      "link_historical_pdf_on_homepage": false
+    }
   }
 }

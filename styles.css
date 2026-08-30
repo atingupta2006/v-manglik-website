@@ -1258,6 +1258,96 @@ p {
   max-width: none;
 }
 
+.cta-band {
+  padding: var(--space-xl) 0;
+  background: var(--color-surface-alt);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.cta-band-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-lg);
+  flex-wrap: wrap;
+}
+
+.cta-band-copy {
+  flex: 1 1 18rem;
+  max-width: 36rem;
+}
+
+.cta-band-copy h2 {
+  font-size: clamp(1.35rem, 3vw, 1.75rem);
+  margin-bottom: 0.5rem;
+  text-transform: none;
+  letter-spacing: 0.01em;
+}
+
+.cta-band-copy p {
+  margin: 0;
+  color: var(--color-muted);
+  max-width: none;
+}
+
+.cta-band-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.practice-gallery {
+  padding: var(--space-2xl) 0;
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.gallery-request-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery-request-list li {
+  border: 1px dashed var(--color-border-strong);
+  padding: 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-secondary);
+  background: var(--color-background);
+}
+
+.contact-helper {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--color-muted);
+  max-width: 36rem;
+  line-height: 1.55;
+}
+
+.resources-more code {
+  font-size: 0.8125rem;
+}
+
+/* Below-fold render hint for long page speed */
+.why,
+.expertise,
+.audience,
+.services,
+.process,
+.practice-gallery,
+.trust,
+.resources,
+.faq {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 720px;
+}
+
 .resources-more a {
   color: var(--color-accent);
   font-weight: 600;
@@ -1820,6 +1910,38 @@ html {
   .contact-actions .btn {
     width: 100%;
     min-height: 2.85rem;
+  }
+
+  .cta-band-inner {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .cta-band-actions {
+    flex-direction: column;
+  }
+
+  .cta-band-actions .btn {
+    width: 100%;
+    min-height: 2.85rem;
+  }
+
+  .gallery-request-list {
+    grid-template-columns: 1fr;
+  }
+
+  .subpage-links {
+    gap: 0.5rem;
+  }
+
+  .subpage-links .nav-link {
+    min-height: 2.5rem;
+    padding: 0.35rem 0.25rem;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
   }
 
   .contact-item a,

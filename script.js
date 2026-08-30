@@ -12,6 +12,20 @@
     return typeof value === "string" && value.length > 0 && value.charAt(0) !== "[";
   }
 
+  function toTelHref(phone) {
+    var cleaned = String(phone).replace(/[^\d+]/g, "");
+    if (cleaned.charAt(0) === "+") {
+      return "tel:" + cleaned;
+    }
+    if (cleaned.charAt(0) === "0") {
+      return "tel:+91" + cleaned.slice(1);
+    }
+    if (cleaned.indexOf("91") === 0 && cleaned.length >= 12) {
+      return "tel:+" + cleaned;
+    }
+    return "tel:" + cleaned;
+  }
+
   function applySiteConfig() {
     var cfg = window.SITE_CONFIG;
     if (!cfg) return;
@@ -27,7 +41,10 @@
 
     document.querySelectorAll('[data-config="phone-link"]').forEach(function (el) {
       if (isFilled(cfg.phone)) {
-        el.setAttribute("href", "tel:" + cfg.phone.replace(/\s+/g, ""));
+        el.setAttribute("href", toTelHref(cfg.phone));
+        if (el.hasAttribute("data-config-text") && el.getAttribute("data-config-text") === "phone") {
+          el.textContent = cfg.phone;
+        }
       }
     });
 
@@ -44,7 +61,7 @@
     var showActions = false;
 
     if (callBtn && isFilled(cfg.phone)) {
-      callBtn.setAttribute("href", "tel:" + cfg.phone.replace(/\s+/g, ""));
+      callBtn.setAttribute("href", toTelHref(cfg.phone));
       callBtn.hidden = false;
       showActions = true;
     } else if (callBtn) {
@@ -108,6 +125,25 @@
     toggle.setAttribute("aria-label", isOpen ? "Close menu" : "Open menu");
     nav.classList.toggle("is-open", isOpen);
     document.body.classList.toggle("nav-open", isOpen);
+    if (isOpen) {
+      var first = nav.querySelector(".nav-link, .btn-nav");
+      if (first) first.focus();
+    }
+  }
+
+  function trapFocus(event) {
+    if (!nav || !nav.classList.contains("is-open") || event.key !== "Tab") return;
+    var focusable = nav.querySelectorAll("a[href], button:not([disabled])");
+    if (!focusable.length) return;
+    var first = focusable[0];
+    var last = focusable[focusable.length - 1];
+    if (event.shiftKey && document.activeElement === first) {
+      event.preventDefault();
+      last.focus();
+    } else if (!event.shiftKey && document.activeElement === last) {
+      event.preventDefault();
+      first.focus();
+    }
   }
 
   function closeMenu() {
@@ -129,6 +165,7 @@
         closeMenu();
         toggle.focus();
       }
+      trapFocus(event);
     });
 
     document.addEventListener("click", function (event) {
@@ -148,7 +185,7 @@
   updateHeader();
 
   /* ---------- Active navigation state ---------- */
-  var sections = ["home", "about", "professionals", "services", "resources", "contact"]
+  var sections = ["home", "about", "professionals", "services", "resources", "faq", "contact"]
     .map(function (id) {
       return document.getElementById(id);
     })
