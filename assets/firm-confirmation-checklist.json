@@ -1,16 +1,21 @@
 {
   "decision_date": "2026-08-30",
   "purpose": "Firm confirmation checklist before final website completion",
+  "last_status_check": "2026-08-30T18:17+05:30",
   "decisions": [
     {
       "item": "8-12 original photos",
       "recommendation": "REQUEST_FROM_FIRM",
-      "publish_without_firm_files": false
+      "publish_without_firm_files": false,
+      "website_status": "PLACEHOLDER_ONLY"
     },
     {
       "item": "Official Google Business Profile / Maps Share link",
       "recommendation": "REQUEST_FROM_FIRM",
-      "interim": "Address-based Maps search + Justdial secondary listing only"
+      "place_id_found": "ChIJTzpX9K6FDDkRachYv44z-aE",
+      "google_maps_share_url": null,
+      "interim": "place_id Maps search link on Hapur View on Map; Share URL still required from firm",
+      "website_status": "INTERIM_PLACE_ID_LINK"
     },
     {
       "item": "CA Prashant Manglik — Partner",
@@ -24,28 +29,45 @@
     },
     {
       "item": "WhatsApp",
-      "recommendation": "ASK_FIRM",
-      "website_status": "NOT_FOUND_RELIABLY"
+      "recommendation": "PROVIDED",
+      "value": "+91 80066 21510",
+      "wa_me": "https://wa.me/918006621510",
+      "website_status": "PUBLISHED"
     },
     {
       "item": "Bhagyashree",
       "recommendation": "DO_NOT_PUBLISH",
-      "note": "Insufficient reliable evidence; LinkedIn company page may list name but role unconfirmed"
+      "note": "Insufficient reliable evidence; LinkedIn company page may list name but role unconfirmed",
+      "website_status": "NOT_PUBLISHED"
     },
     {
       "item": "Ankit",
       "recommendation": "DO_NOT_PUBLISH",
-      "note": "Insufficient reliable evidence"
+      "note": "Insufficient reliable evidence",
+      "website_status": "NOT_PUBLISHED"
     },
     {
       "item": "Delhi office",
       "recommendation": "DO_NOT_PUBLISH",
-      "note": "Professional city on profiles ≠ firm office"
+      "note": "Professional city on profiles ≠ firm office",
+      "website_status": "NOT_PUBLISHED"
     },
     {
       "item": "Ghaziabad office",
       "recommendation": "DO_NOT_PUBLISH",
-      "note": "ICAI address wording Distt Ghaziabad, Hapur is administrative, not a separate office"
+      "note": "ICAI address wording Distt Ghaziabad, Hapur is administrative, not a separate office",
+      "website_status": "NOT_PUBLISHED"
+    },
+    {
+      "item": "Google Maps rating on website as Google",
+      "recommendation": "ASK_FIRM_BEFORE_PUBLISH",
+      "website_status": "NOT_PUBLISHED_AS_GOOGLE",
+      "note": "Justdial 5.0/21 attribution remains; do not label as Google until firm approves"
+    },
+    {
+      "item": "Office hours Sunday / 20:00 close",
+      "recommendation": "CONFIRM_WITH_FIRM",
+      "website_status": "PUBLISHING_MAPS_SUMMARY_MON_SAT_10_18_ONLY"
     }
   ],
   "additional_credibility": {
@@ -56,16 +78,15 @@
       "source": "https://indiankanoon.org/doc/118362958/",
       "case_title": "Shri Ram Piston And Rings Employees ... vs Ito, Ward- 2(3), Ghaziabad on 29 May, 2019",
       "website_usage": "Supports tax litigation / representation positioning; do not overstate outcomes",
-      "safe_wording": "CA Prashant Manglik has appeared in income-tax appellate proceedings before the ITAT."
+      "safe_wording": "CA Prashant Manglik has appeared in income-tax appellate proceedings before the ITAT.",
+      "website_status": "PUBLISHED_IN_TEAM_BIO"
     }
   },
-  "seven_confirmations_to_ask_firm": [
+  "blocking_for_100_percent": [
     "8–12 original website photographs (office + headshots)",
-    "Official Google Business Profile / Google Maps Share link",
-    "Permission to publish “CA Prashant Manglik — Partner”",
-    "Official WhatsApp number if available",
-    "Who are Bhagyashree and Ankit, and should they appear?",
-    "Do you currently operate a Delhi office?",
-    "Do you currently operate a Ghaziabad office?"
+    "Official Google Maps Share → Copy link URL",
+    "Permission to publish “CA Prashant Manglik — Partner” (optional upgrade)",
+    "Confirm office hours if Sunday / extended evenings should appear",
+    "Optional: approve Google rating display; Bhagyashree/Ankit; Delhi/Ghaziabad offices"
   ]
 }
