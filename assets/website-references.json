@@ -170,16 +170,19 @@
     "potential_future_links": [
       {
         "name": "Official Google Business Profile",
-        "url": "https://maps.google.com/maps/search/81%2C%20PUCCA%20BAGH%2C%20HAPUR%20245101/@28.7305,77.7838,17z?hl=en",
-        "status": "published",
+        "url": "https://www.google.com/maps/search/?api=1&query_place_id=ChIJTzpX9K6FDDkRachYv44z-aE",
+        "status": "published_place_id_not_share_google",
         "priority": "high",
         "place_id": "ChIJTzpX9K6FDDkRachYv44z-aE",
         "directions_url": "https://www.google.com/maps/dir/?api=1&destination=V+Manglik+%26+Co.+%28Chartered+Accountants%29%2C+177%2C+Pucca+Bagh%2C+Mani+Pakka+Bagh%2C+Hapur%2C+Uttar+Pradesh+245101%2C+India",
-        "share_url": "https://maps.google.com/maps/search/81%2C%20PUCCA%20BAGH%2C%20HAPUR%20245101/@28.7305,77.7838,17z?hl=en",
+        "share_url": "https://www.google.com/maps/search/?api=1&query_place_id=ChIJTzpX9K6FDDkRachYv44z-aE",
         "addresses": [
           "177, Pucca Bagh",
           "81, Pucca Bagh"
-        ]
+        ],
+        "google_ratings_url": "https://www.google.com/maps/place/?q=place_id:ChIJTzpX9K6FDDkRachYv44z-aE",
+        "rejected_share_google": "https://share.google/3SrDn3DrbYkZXKJs1",
+        "note": "share.google redirects to manglikca.in — not used"
       },
       {
         "name": "Official LinkedIn Company Page",
@@ -201,17 +204,20 @@
       },
       {
         "name": "Official Google Maps Location",
-        "url": "https://maps.google.com/maps/search/81%2C%20PUCCA%20BAGH%2C%20HAPUR%20245101/@28.7305,77.7838,17z?hl=en",
-        "status": "published",
+        "url": "https://www.google.com/maps/search/?api=1&query_place_id=ChIJTzpX9K6FDDkRachYv44z-aE",
+        "status": "published_place_id_not_share_google",
         "priority": "high",
         "interim": "Address search Maps links published for Hapur and Noida",
         "place_id": "ChIJTzpX9K6FDDkRachYv44z-aE",
         "directions_url": "https://www.google.com/maps/dir/?api=1&destination=V+Manglik+%26+Co.+%28Chartered+Accountants%29%2C+177%2C+Pucca+Bagh%2C+Mani+Pakka+Bagh%2C+Hapur%2C+Uttar+Pradesh+245101%2C+India",
-        "share_url": "https://maps.google.com/maps/search/81%2C%20PUCCA%20BAGH%2C%20HAPUR%20245101/@28.7305,77.7838,17z?hl=en",
+        "share_url": "https://www.google.com/maps/search/?api=1&query_place_id=ChIJTzpX9K6FDDkRachYv44z-aE",
         "addresses": [
           "177, Pucca Bagh",
           "81, Pucca Bagh"
-        ]
+        ],
+        "google_ratings_url": "https://www.google.com/maps/place/?q=place_id:ChIJTzpX9K6FDDkRachYv44z-aE",
+        "rejected_share_google": "https://share.google/3SrDn3DrbYkZXKJs1",
+        "note": "share.google redirects to manglikca.in — not used"
       },
       {
         "name": "Official Domain",

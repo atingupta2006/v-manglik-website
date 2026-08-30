@@ -8,14 +8,17 @@
       "recommendation": "REQUEST_FROM_FIRM",
       "publish_without_firm_files": false,
       "website_status": "FIRST_OFFICE_INTERIOR_PUBLISHED_MORE_NEEDED",
-      "published": ["assets/images/office-interior.jpg"]
+      "published": [
+        "assets/images/office-interior.jpg"
+      ]
     },
     {
       "item": "Official Google Business Profile / Maps Share link",
       "recommendation": "PROVIDED",
       "place_id_found": "ChIJTzpX9K6FDDkRachYv44z-aE",
-      "google_maps_share_url": "https://maps.google.com/maps/search/81%2C%20PUCCA%20BAGH%2C%20HAPUR%20245101/@28.7305,77.7838,17z?hl=en",
-      "website_status": "PUBLISHED"
+      "google_maps_share_url": "https://www.google.com/maps/search/?api=1&query_place_id=ChIJTzpX9K6FDDkRachYv44z-aE",
+      "website_status": "PUBLISHED",
+      "note": "share.google rejected — redirects to manglikca.in; using place_id Maps URL"
     },
     {
       "item": "CA Prashant Manglik title",
@@ -56,12 +59,16 @@
       "display_text": "5.0 ★★★★★ on Google",
       "rating": 5.0,
       "review_count": 21,
-      "website_status": "PUBLISHED_AS_GOOGLE"
+      "website_status": "PUBLISHED_AS_GOOGLE",
+      "google_ratings_url": "https://www.google.com/maps/place/?q=place_id:ChIJTzpX9K6FDDkRachYv44z-aE"
     },
     {
       "item": "Both Hapur addresses",
       "recommendation": "PROVIDED",
-      "addresses": ["177, Pucca Bagh", "81, Pucca Bagh"],
+      "addresses": [
+        "177, Pucca Bagh",
+        "81, Pucca Bagh"
+      ],
       "website_status": "PUBLISHED"
     },
     {

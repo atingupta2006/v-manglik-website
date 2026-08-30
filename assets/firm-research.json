@@ -1106,7 +1106,7 @@
     "status": "current_business_data",
     "google_business_id": "ChIJTzpX9K6FDDkRachYv44z-aE",
     "google_place_id": "ChIJTzpX9K6FDDkRachYv44z-aE",
-    "google_maps_share_url": "https://maps.google.com/maps/search/81%2C%20PUCCA%20BAGH%2C%20HAPUR%20245101/@28.7305,77.7838,17z?hl=en",
+    "google_maps_share_url": "https://www.google.com/maps/search/?api=1&query_place_id=ChIJTzpX9K6FDDkRachYv44z-aE",
     "category": "Chartered Accountant",
     "hours_published": "Monday–Saturday, 10:00–18:00",
     "geo": {
@@ -1117,12 +1117,20 @@
     "website_policy": {
       "publish_google_rating_as_google": true,
       "publish_both_hapur_addresses": true,
-      "maps_share_url_confirmed": true
+      "never_link_to_manglikca_in_website": true,
+      "prefer_place_id_maps_over_share_google": true
     },
     "office_photo_received": {
       "file": "assets/images/office-interior.jpg",
       "webp": "assets/images/office-interior.webp",
       "website_status": "published_in_gallery"
+    },
+    "google_ratings_url": "https://www.google.com/maps/place/?q=place_id:ChIJTzpX9K6FDDkRachYv44z-aE",
+    "previous_maps_search_url": "https://maps.google.com/maps/search/81%2C%20PUCCA%20BAGH%2C%20HAPUR%20245101/@28.7305,77.7838,17z?hl=en",
+    "share_google_url_provided_but_rejected": {
+      "url": "https://share.google/3SrDn3DrbYkZXKJs1",
+      "reason": "Redirects to http://www.manglikca.in/?from=@ — do not use on website",
+      "website_publish": false
     }
   },
   "confirmed_titles": {
