@@ -2,6 +2,9 @@
 LOGO VMC.png
 WEBSITE_VMC.docx
 
+# Internal maintenance tools — never publish
+_internal/
+
 # OS / editor
 .DS_Store
 Thumbs.db
