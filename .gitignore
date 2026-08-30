@@ -1,0 +1,10 @@
+# Editor / source materials (optional on host)
+LOGO VMC.png
+WEBSITE_VMC.docx
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
