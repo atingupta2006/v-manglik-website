@@ -1961,7 +1961,7 @@ html {
 
   .mobile-actions {
     display: grid;
-    grid-template-columns: 1.4fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     position: fixed;
     left: 0;
     right: 0;
@@ -1977,12 +1977,12 @@ html {
     align-items: center;
     justify-content: center;
     min-height: 3.25rem;
-    padding: 0.75rem 0.85rem;
+    padding: 0.75rem 0.5rem;
     text-align: center;
     text-decoration: none;
-    font-size: 0.75rem;
+    font-size: 0.68rem;
     font-weight: 700;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--color-surface);
     line-height: 1.2;
@@ -1990,6 +1990,11 @@ html {
 
   .mobile-actions-call {
     background: var(--color-primary);
+    border-right: 1px solid rgba(255, 255, 255, 0.14);
+  }
+
+  .mobile-actions-whatsapp {
+    background: #128c7e;
     border-right: 1px solid rgba(255, 255, 255, 0.14);
   }
 

@@ -138,6 +138,12 @@
       "value": "CA Prashant Manglik",
       "status": "firm_supplied",
       "website_publish": true
+    },
+    "whatsapp": {
+      "value": "+91 80066 21510",
+      "wa_me": "https://wa.me/918006621510",
+      "status": "provided",
+      "website_publish": true
     }
   },
   "locations": {
@@ -1081,5 +1087,30 @@
       "Do you currently operate a Delhi office?",
       "Do you currently operate a Ghaziabad office?"
     ]
+  },
+  "google_business_profile": {
+    "business_name": "V Manglik & Co. (Chartered Accountants)",
+    "address": "177, Pucca Bagh, Mani Pakka Bagh, Hapur, Uttar Pradesh 245101, India",
+    "rating": 5.0,
+    "review_count": 21,
+    "phone": "+91 1222 312151",
+    "category": "Chartered Accountant",
+    "hours_reported_on_maps_summary": "Monday–Saturday, 10:00–18:00",
+    "hours_seen_in_expanded_ui_screenshot": {
+      "sunday": "10:30–17:00",
+      "monday_saturday": "10:00–20:00",
+      "note": "Conflicts with summary hours; confirm with firm before publishing Sunday or 20:00 close"
+    },
+    "google_place_id": "ChIJTzpX9K6FDDkRachYv44z-aE",
+    "google_maps_share_url": null,
+    "interim_maps_link_using_place_id": "https://www.google.com/maps/search/?api=1&query_place_id=ChIJTzpX9K6FDDkRachYv44z-aE",
+    "status": "business_found_but_share_url_requires_firm_confirmation",
+    "action": "Ask firm to open Google Maps, select Share, Copy link, and provide the URL",
+    "website_policy": {
+      "use_place_id_link_as_interim": true,
+      "publish_google_rating_as_google": false,
+      "justdial_rating_already_approved": true,
+      "prefer_firm_share_url_when_received": true
+    }
   }
 }

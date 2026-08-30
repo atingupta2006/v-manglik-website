@@ -23,7 +23,9 @@ contact:
   website_domain: "atingupta2006.github.io/v-manglik-website"
   office_hours: "Monday–Saturday, 10:00 AM – 6:00 PM"
   noida_address: "H-6, Sector-11, Noida – 201301"
-  google_maps_url: "https://www.google.com/maps/search/?api=1&query=177%20Pucca%20Bagh%2C%20Hapur%2C%20Uttar%20Pradesh%20245101"
+  whatsapp: "+91 80066 21510"
+  google_place_id: "ChIJTzpX9K6FDDkRachYv44z-aE"
+  google_maps_url: "https://www.google.com/maps/search/?api=1&query_place_id=ChIJTzpX9K6FDDkRachYv44z-aE"
   research_asset: "assets/firm-research.json"
 
 seo:

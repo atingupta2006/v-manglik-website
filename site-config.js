@@ -7,7 +7,9 @@
  * - Phone: 01222312151
  * - Email: pm@manglikca.in
  * - Offices: Hapur (head) + Noida
- * - Hours: Mon–Sat 10:00–18:00
+ * - Hours: Mon–Sat 10:00–18:00 (Maps summary)
+ * - WhatsApp: +91 80066 21510
+ * - Google place_id confirmed; Share URL pending firm
  *
  * Research asset: assets/firm-research.json
  * Site hosted on GitHub Pages (no custom-domain forward).
@@ -25,6 +27,12 @@ window.SITE_CONFIG = {
   address: "177, Pucca Bagh, Hapur, Uttar Pradesh – 245101, India",
 
   noidaAddress: "H-6, Sector-11, Noida, Uttar Pradesh – 201301, India",
+
+  whatsapp: "+91 80066 21510",
+
+  mapsPlaceId: "ChIJTzpX9K6FDDkRachYv44z-aE",
+
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query_place_id=ChIJTzpX9K6FDDkRachYv44z-aE",
 
   officeHours: "Monday – Saturday, 10:00 AM – 6:00 PM",
 
