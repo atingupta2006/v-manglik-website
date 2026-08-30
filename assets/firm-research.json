@@ -445,5 +445,80 @@
       "aggregateRating 5.0 / 21",
       "employee CA Vishal Manglik and CA Prashant Manglik"
     ]
+  },
+  "references": {
+    "purpose": "Traceability for claims published on the website. Exact review-portal URLs still need firm confirmation.",
+    "review_and_local_listings": [
+      {
+        "portal": "Google Business Profile / Google Maps",
+        "role": "Likely primary source for 5.0 rating and 21 reviews; Maps search CTAs use address queries",
+        "url_status": "not_captured_in_research",
+        "action": "Obtain official GBP URL(s) for Hapur and Noida if claimed"
+      },
+      {
+        "portal": "Structured local business listing (unnamed)",
+        "role": "Research source for hours Mon-Sat 10:00-18:00, landline +91 1222 312151, category Chartered Accountant",
+        "url_status": "not_named",
+        "action": "Identify exact directory (Justdial/Sulekha/IndiaMART/other) and store URL"
+      },
+      {
+        "portal": "Other professional directories",
+        "role": "Corroborated Hapur head-office address",
+        "url_status": "supporting_only"
+      }
+    ],
+    "regulatory_and_registries": [
+      {
+        "source": "ICAI List of Firms",
+        "evidence": [
+          "V Manglik & Co.",
+          "008674C",
+          "Chartered Accountants"
+        ],
+        "reference_note": "ICAI List of Firms 2023 cited in research"
+      },
+      {
+        "source": "ICAI member records",
+        "evidence": [
+          "CA Vishal Manglik Hapur / DISA signal",
+          "CA Prashant Manglik membership number found in research (not published on site)"
+        ]
+      },
+      {
+        "source": "Historical public records (~2004)",
+        "evidence": [
+          "Public documentation of V. Manglik & Co. in Hapur"
+        ]
+      }
+    ],
+    "professional_networks": [
+      {
+        "source": "LinkedIn",
+        "people": [
+          "CA Harsh Agarwal",
+          "CA Palak Agarwal",
+          "Akshita Goel",
+          "Anurag Bhardwaj (unpublished)"
+        ]
+      }
+    ],
+    "firm_supplied": [
+      "Service portfolio document (firm authoritative)",
+      "Contact email pm@manglikca.in",
+      "Publish decisions: Vishal name, Noida office, hours, ratings, testimonials themes, phone 01222312151",
+      "Brand logo assets"
+    ],
+    "excluded_from_website": [
+      "Vishal Manglik private-company directorship records",
+      "Unconfirmed Partner/Founder titles",
+      "Anurag Bhardwaj until role confirmed"
+    ],
+    "collect_next": [
+      "Exact Google Business Profile URL(s)",
+      "Exact directory URL showing 5.0 / 21 reviews",
+      "Verbatim reviews with permission OR rating-only display",
+      "Optional WhatsApp Business number",
+      "Optional official social profile URLs for schema sameAs"
+    ]
   }
 }
