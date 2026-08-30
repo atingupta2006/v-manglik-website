@@ -31,11 +31,14 @@
       "Anonymous testimonial themes tied to public listings",
       "Primary phone 01222312151",
       "Firm email pm@manglikca.in",
-      "Team professionals Harsh Agarwal, Palak Agarwal, Akshita Goel (conservative wording)"
+      "Team professionals Harsh Agarwal, Palak Agarwal, Akshita Goel (conservative wording)",
+      "Google Maps Share URL",
+      "Google rating 5.0 / 21 labelled as Google",
+      "Hapur addresses 177 and 81 Pucca Bagh",
+      "CA Prashant Manglik as Director / Owner"
     ],
     "still_do_not_publish": [
       "Vishal Manglik as founder/partner/managing partner/owner",
-      "Prashant Manglik as current Partner / Managing Partner",
       "Vishal Manglik private-company directorships on the CA firm site",
       "Anurag Bhardwaj (internal research only until role confirmed)",
       "Awards, client logos, client counts, pan-India or international claims",
@@ -1091,38 +1094,42 @@
   "google_business_profile": {
     "business_name": "V Manglik & Co. (Chartered Accountants)",
     "address": "177, Pucca Bagh, Mani Pakka Bagh, Hapur, Uttar Pradesh 245101, India",
+    "addresses_published": [
+      "177, Pucca Bagh, Mani Pakka Bagh, Hapur, Uttar Pradesh 245101, India",
+      "81, Pucca Bagh, Hapur, Uttar Pradesh 245101, India"
+    ],
     "rating": 5.0,
     "review_count": 21,
+    "rating_label": "Google",
+    "display_text": "5.0 ★★★★★ on Google",
     "phone": "+91 1222 312151",
-    "category": "Chartered Accountant",
-    "hours_reported_on_maps_summary": "Monday–Saturday, 10:00–18:00",
-    "hours_seen_in_expanded_ui_screenshot": {
-      "sunday": "10:30–17:00",
-      "monday_saturday": "10:00–20:00",
-      "note": "Conflicts with summary hours; confirm with firm before publishing Sunday or 20:00 close"
-    },
+    "status": "current_business_data",
+    "google_business_id": "ChIJTzpX9K6FDDkRachYv44z-aE",
     "google_place_id": "ChIJTzpX9K6FDDkRachYv44z-aE",
-    "google_maps_share_url": null,
-    "interim_maps_link_using_place_id": "https://www.google.com/maps/search/?api=1&query_place_id=ChIJTzpX9K6FDDkRachYv44z-aE",
-    "status": "business_found_but_share_url_requires_firm_confirmation",
-    "action": "Ask firm to open Google Maps, select Share, Copy link, and provide the URL",
-    "website_policy": {
-      "use_place_id_link_as_interim": true,
-      "publish_google_rating_as_google": false,
-      "justdial_rating_already_approved": true,
-      "prefer_firm_share_url_when_received": true
-    },
+    "google_maps_share_url": "https://maps.google.com/maps/search/81%2C%20PUCCA%20BAGH%2C%20HAPUR%20245101/@28.7305,77.7838,17z?hl=en",
+    "category": "Chartered Accountant",
+    "hours_published": "Monday–Saturday, 10:00–18:00",
     "geo": {
       "latitude": 28.7305,
-      "longitude": 77.7838,
-      "source": "maps search viewport near listing"
+      "longitude": 77.7838
     },
     "directions_url": "https://www.google.com/maps/dir/?api=1&destination=V+Manglik+%26+Co.+%28Chartered+Accountants%29%2C+177%2C+Pucca+Bagh%2C+Mani+Pakka+Bagh%2C+Hapur%2C+Uttar+Pradesh+245101%2C+India",
-    "alternate_address_seen_not_published": "81, PUCCA BAGH, HAPUR 245101 — do not replace 177 without firm confirmation",
+    "website_policy": {
+      "publish_google_rating_as_google": true,
+      "publish_both_hapur_addresses": true,
+      "maps_share_url_confirmed": true
+    },
     "office_photo_received": {
       "file": "assets/images/office-interior.jpg",
       "webp": "assets/images/office-interior.webp",
       "website_status": "published_in_gallery"
+    }
+  },
+  "confirmed_titles": {
+    "CA Prashant Manglik": {
+      "title": "Director / Owner",
+      "status": "firm_confirmed",
+      "website_publish": true
     }
   }
 }

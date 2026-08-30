@@ -1,3 +1,12 @@
+## Applied from firm reply (2026-08-30)
+
+- Maps Share URL published
+- CA Prashant Manglik title: **Director / Owner**
+- Google rating 5.0 / 21 labelled as Google
+- Both Hapur addresses: **177** and **81**, Pucca Bagh
+
+---
+
 # Firm confirmation note (WhatsApp / email)
 
 **Subject (email):** Website confirmations needed — V Manglik & Co.

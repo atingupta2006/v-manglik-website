@@ -1100,13 +1100,28 @@ p {
   border-bottom: 1px solid var(--color-border);
 }
 
+.trust-ratings-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-lg);
+  margin-bottom: var(--space-xl);
+  padding-bottom: var(--space-lg);
+  border-bottom: 1px solid var(--color-border-strong);
+}
+
+@media (max-width: 700px) {
+  .trust-ratings-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .trust-rating {
   display: flex;
   align-items: baseline;
   gap: var(--space-md);
-  margin-bottom: var(--space-xl);
-  padding-bottom: var(--space-lg);
-  border-bottom: 1px solid var(--color-border-strong);
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
 }
 
 .trust-score {
@@ -1116,6 +1131,10 @@ p {
   line-height: 1;
   letter-spacing: 0.02em;
   color: var(--color-text);
+}
+
+.trust-score-sm {
+  font-size: clamp(2.25rem, 4vw, 3rem);
 }
 
 .trust-rating-label {
