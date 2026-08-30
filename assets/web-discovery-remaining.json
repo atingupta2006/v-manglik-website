@@ -1,0 +1,60 @@
+{
+  "discovery_date": "2026-08-30",
+  "purpose": "Deep web search for remaining completion items (GBP, photos, WhatsApp, designations, social).",
+  "summary": {
+    "can_complete_from_web_alone": false,
+    "blocking_items_still_need_firm": [
+      "Original office photographs",
+      "Approved headshots",
+      "Official Google Business Profile share URL",
+      "WhatsApp Business number confirmation",
+      "Explicit approval to publish Partner title",
+      "Confirm whether Delhi/Ghaziabad should appear as offices",
+      "Confirm Bhagyashree Singh / Ankit Kumar Singh for team page"
+    ]
+  },
+  "found": {
+    "linkedin_company_page": {
+      "url": "https://www.linkedin.com/company/v-manglik-co",
+      "matches_firm_tagline": "Precision | Integrity | Growth",
+      "founded": 2000,
+      "type": "Partnership",
+      "locations_listed": ["Hapur", "Noida", "Delhi", "Ghaziabad"],
+      "employees_shown": ["Bhagyashree Singh", "Ankit Kumar Singh", "CA Prashant Manglik", "Priya Manglik"],
+      "website_action": "Safe to link as firm social profile; do not invent Delhi/Ghaziabad offices without confirmation"
+    },
+    "prashant_designation_public": {
+      "source": "https://www.linkedin.com/in/ca-prashant-manglik",
+      "self_listed_title": "Partner at V Manglik & Co.",
+      "since": "Jan 2000",
+      "website_action": "Needs firm confirmation before publishing Partner on site"
+    },
+    "maps_plus_code_hint": {
+      "source": "https://inmap24.com/car-rental/uttar-pradesh/435542",
+      "plus_code": "PQJM+5G Hapur, Uttar Pradesh, India",
+      "address": "177, Pucca Bagh, Mani Pakka Bagh, Hapur, Uttar Pradesh 245101, India",
+      "note": "Not a verified Google Business Profile URL; category on that aggregator looked unreliable"
+    },
+    "justdial": {
+      "url": "https://www.justdial.com/Hapur/V-Manglik-Co-Pucca-Bagh/9999PX122-X122-140505222559-X5E2_BZDET",
+      "already_on_site": true,
+      "photos": "May exist on listing; do not download/reuse without permission"
+    },
+    "busy_directory": {
+      "url": "https://busy.in/ca/ca-in-hapur/",
+      "lists": "V MANGLIK & CO / Prashant Manglik / 177 Pakka Bagh"
+    },
+    "aggregator_phones_unverified": {
+      "values_seen": ["9897011237", "9412220183", "01212312151"],
+      "website_action": "Do not publish; keep firm-approved 01222312151 and pm@manglikca.in"
+    }
+  },
+  "not_found_reliably": [
+    "Official Google Business Profile URL with place ID",
+    "Reusable office/team photo gallery",
+    "WhatsApp Business number",
+    "Approved headshot files",
+    "Official manglikca.in website (email domain only so far)"
+  ],
+  "recommendation": "Ask firm for photos + GBP link + WhatsApp yes/no + Partner title yes/no. From web we can only add LinkedIn company page and keep Justdial as secondary reference."
+}
