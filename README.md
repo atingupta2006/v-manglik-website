@@ -143,13 +143,20 @@ No EC2, Lambda, Node.js, or application server is required.
 2. Settings → Pages → Deploy from a branch → `/` (root)
 3. Hash navigation (`#home`, `#services`, `#contact`) needs no special routing
 
-## Custom Domain
+## Custom Domain (manglikca.in)
 
-Domain setup is separate from the website files. After DNS is connected:
+The site is configured for **manglikca.in** (canonical, sitemap, robots, `CNAME`).
 
-1. Set `domain` in `site-config.js`
-2. Replace `[WEBSITE DOMAIN]` in `robots.txt` and `sitemap.xml`
-3. Re-upload those files
+To connect the domain to GitHub Pages:
+
+1. In the repo: **Settings → Pages → Custom domain** → enter `manglikca.in` (and enable HTTPS once DNS propagates)
+2. At your domain registrar, add DNS records per GitHub’s current guidance, typically:
+   - **A** records for `@` pointing to GitHub Pages IPs, **or**
+   - **CNAME** for `www` → `atingupta2006.github.io`
+3. Wait for DNS propagation, then confirm https://manglikca.in/ loads
+
+Until DNS is pointed, the site remains available at:
+https://atingupta2006.github.io/v-manglik-website/
 
 ## Future Maintenance
 
