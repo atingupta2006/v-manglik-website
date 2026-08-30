@@ -1,0 +1,36 @@
+/* Theme preset: Classic (default) — charcoal + ivory + muted gold */
+:root {
+  --color-primary: #1a1a1a;
+  --color-secondary: #3d3d3d;
+  --color-accent: #8a734a;
+  --color-accent-hover: #6f5c3a;
+  --color-background: #faf9f7;
+  --color-surface: #ffffff;
+  --color-surface-alt: #f3f1ed;
+  --color-text: #1a1a1a;
+  --color-muted: #5c5c5c;
+  --color-border: #e2dfd8;
+  --color-border-strong: #c9c4ba;
+  --color-focus: #8a734a;
+  --color-footer-bg: #1a1a1a;
+  --color-footer-text: #d8d5cf;
+  --color-footer-muted: #9a958c;
+  --color-footer-accent: #c4b48a;
+
+  --font-serif: "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Times New Roman", serif;
+  --font-sans: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+
+  --max-width: 1120px;
+  --header-height: 4.5rem;
+  --radius: 2px;
+  --shadow-subtle: 0 1px 2px rgba(26, 26, 26, 0.04);
+
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1.25rem;
+  --space-lg: 2rem;
+  --space-xl: 3.5rem;
+  --space-2xl: 5.5rem;
+
+  --transition: 0.2s ease;
+}

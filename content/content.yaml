@@ -1,0 +1,181 @@
+# =============================================================================
+# V Manglik & Co. — Website Content (editable)
+# =============================================================================
+# HOW TO USE
+# 1. Fill in the values below (especially contact.*).
+# 2. Copy contact values into site-config.js (live site reads that file).
+# 3. For longer copy / services, update the matching sections in index.html
+#    (see content/CONTENT.md for a checklist).
+#
+# This YAML file is an editor-friendly source of truth. It is NOT loaded by
+# the browser at runtime (keeps the site instant — no YAML parser, no fetch).
+# You do not need to upload this folder for the website to work.
+# =============================================================================
+
+firm:
+  name: "V Manglik & Co."
+  profession: "Chartered Accountants"
+  tagline: "Precision | Integrity | Growth"
+  founded: 2000
+
+# --- REPLACE THESE BEFORE GO-LIVE ---
+contact:
+  phone: "[PHONE NUMBER]"
+  email: "[EMAIL ADDRESS]"
+  address: "[OFFICE ADDRESS]"
+  # Domain only, no https://  e.g. www.example.com
+  website_domain: "[WEBSITE DOMAIN]"
+
+seo:
+  title: "V Manglik & Co. | Chartered Accountants"
+  description: >-
+    V Manglik & Co. is a Chartered Accountant firm providing taxation, GST,
+    audit, compliance, registration and representation services.
+  # theme-color should match theme.css --color-primary when you change themes
+  theme_color: "#1a1a1a"
+
+hero:
+  eyebrow: "Founded in 2000"
+  primary_cta: "Explore Our Services"
+  secondary_cta: "Contact Us"
+  lead: >-
+    At V Manglik & Co., we believe that trust is built through transparency
+    and strengthened by professionalism. As a Chartered Accountant firm, we
+    are committed to delivering accurate, ethical, and practical financial
+    solutions that empower businesses and individuals to make informed
+    decisions with confidence.
+
+philosophy:
+  eyebrow: "Our Philosophy"
+  heading: "Trust Built on Transparency"
+  subheading: "Strengthened by Professionalism"
+  principles:
+    - title: "Accuracy & Ethics"
+      text: >-
+        We deliver accurate, ethical financial solutions grounded in
+        professional standards.
+    - title: "Practical Guidance"
+      text: >-
+        Our advice is practical and designed to support clear, confident
+        decision-making.
+    - title: "Sustainable Growth"
+      text: >-
+        We help simplify compliance, optimize financial performance, and
+        support lasting growth.
+  body: >-
+    Whether you're an entrepreneur, a growing business, a corporate
+    organization, or an individual taxpayer, our team provides tailored
+    services designed to simplify compliance, optimize financial
+    performance, and support sustainable growth.
+
+audience:
+  eyebrow: "Our Clients"
+  heading: "Who We Serve"
+  intro: >-
+    Tailored services for individuals and organisations seeking clear,
+    professional financial guidance.
+  items:
+    - title: "Entrepreneurs"
+      text: >-
+        Practical support for founders building and structuring their
+        ventures with confidence.
+    - title: "Growing Businesses"
+      text: >-
+        Services designed to simplify compliance and strengthen financial
+        performance as you scale.
+    - title: "Corporate Organizations"
+      text: >-
+        Professional advisory and assurance aligned with organisational
+        governance and reporting needs.
+    - title: "Individual Taxpayers"
+      text: >-
+        Clear, ethical guidance to help individuals meet obligations and
+        make informed tax decisions.
+
+services:
+  eyebrow: "What We Offer"
+  heading: "Our Professional Services"
+  intro: >-
+    Comprehensive chartered accountancy services spanning taxation,
+    compliance, audit, and registrations.
+  categories:
+    - number: "01"
+      title: "Direct Taxation"
+      items:
+        - "Income Tax Return (ITR) Filing"
+        - "Litigation Support"
+        - "Capital Gains Tax Advisory"
+        - "NRI Taxation"
+        - "TDS Compliance & Returns"
+        - "Lower Deduction Certificates for TDS / TCS"
+
+    - number: "02"
+      title: "Goods & Services Tax (GST) Services"
+      items:
+        - "GST Registration"
+        - "GST Return Filing"
+        - "GST Notices & Litigation Support"
+        - "GST Refund Application"
+
+    - number: "03"
+      title: "Audit & Assurance"
+      items:
+        - "Statutory Audit"
+        - "Tax Audit (Section 44AB)"
+        - "Bank Audit"
+
+    - number: "04"
+      title: "Company & LLP Services"
+      items:
+        - "Private Limited Company Registration"
+        - "LLP Registration"
+        - "OPC Registration"
+        - "Partnership Firm Registration"
+        - "ROC Annual Compliance"
+
+    - number: "05"
+      title: "Startup & MSME Services"
+      items:
+        - "Startup India Registration"
+        - "MSME/Udyam Registration"
+
+    - number: "06"
+      title: "Litigation & Representation"
+      items:
+        - "Income Tax Appeals"
+        - "GST Appeals"
+        - "Representation Before Tax Authorities"
+        - "Assessment Proceedings"
+        - "Reply to Notices"
+
+    - number: "07"
+      title: "Other Registrations"
+      items:
+        - "PAN & TAN"
+        - "DSC (Digital Signature Certificate)"
+        - "IEC Registration"
+        - "LEI Registration"
+        - "Trademark Coordination (through associates, if applicable)"
+
+contact_section:
+  eyebrow: "Get in Touch"
+  heading: "Contact Us"
+  intro: >-
+    We welcome enquiries from individuals and organisations seeking
+    professional chartered accountancy services. Reach out to discuss how
+    we may assist you.
+  call_cta: "Call Us"
+  email_cta: "Email Us"
+
+footer:
+  copyright_year: 2026
+  copyright_text: "V Manglik & Co. All Rights Reserved."
+
+navigation:
+  - label: "Home"
+    href: "#home"
+  - label: "Services"
+    href: "#services"
+  - label: "Contact Us"
+    href: "#contact"
+  cta_label: "Get in Touch"

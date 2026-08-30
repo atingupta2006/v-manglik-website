@@ -1,0 +1,36 @@
+/* Theme preset: Cool Slate — cooler neutrals, steel accent (still conservative) */
+:root {
+  --color-primary: #1c2128;
+  --color-secondary: #3d4654;
+  --color-accent: #6b7c8f;
+  --color-accent-hover: #556575;
+  --color-background: #f6f7f9;
+  --color-surface: #ffffff;
+  --color-surface-alt: #eef0f3;
+  --color-text: #1c2128;
+  --color-muted: #5a6573;
+  --color-border: #dde1e6;
+  --color-border-strong: #c0c7d0;
+  --color-focus: #6b7c8f;
+  --color-footer-bg: #1c2128;
+  --color-footer-text: #d5dae0;
+  --color-footer-muted: #8b94a1;
+  --color-footer-accent: #a8b6c4;
+
+  --font-serif: Georgia, "Times New Roman", "Palatino Linotype", Palatino, serif;
+  --font-sans: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+
+  --max-width: 1120px;
+  --header-height: 4.5rem;
+  --radius: 2px;
+  --shadow-subtle: 0 1px 2px rgba(28, 33, 40, 0.05);
+
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1.25rem;
+  --space-lg: 2rem;
+  --space-xl: 3.5rem;
+  --space-2xl: 5.5rem;
+
+  --transition: 0.2s ease;
+}

@@ -1,0 +1,36 @@
+/* Theme preset: Warm Gold — deeper ink, warmer paper, richer gold accent */
+:root {
+  --color-primary: #14110f;
+  --color-secondary: #3a342e;
+  --color-accent: #9a7b4f;
+  --color-accent-hover: #7d6340;
+  --color-background: #f7f3eb;
+  --color-surface: #fffcf7;
+  --color-surface-alt: #efe8dc;
+  --color-text: #14110f;
+  --color-muted: #5e574e;
+  --color-border: #e0d7c8;
+  --color-border-strong: #c4b8a4;
+  --color-focus: #9a7b4f;
+  --color-footer-bg: #14110f;
+  --color-footer-text: #e8e0d4;
+  --color-footer-muted: #a39a8c;
+  --color-footer-accent: #d4b882;
+
+  --font-serif: "Palatino Linotype", Palatino, "Book Antiqua", Georgia, "Times New Roman", serif;
+  --font-sans: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+
+  --max-width: 1120px;
+  --header-height: 4.5rem;
+  --radius: 2px;
+  --shadow-subtle: 0 1px 2px rgba(20, 17, 15, 0.05);
+
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1.25rem;
+  --space-lg: 2rem;
+  --space-xl: 3.5rem;
+  --space-2xl: 5.5rem;
+
+  --transition: 0.2s ease;
+}
